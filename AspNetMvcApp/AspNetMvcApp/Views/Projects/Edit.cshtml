@@ -1,0 +1,17 @@
+﻿@model AspNetMvcApp.Models.Project
+
+<h1>Edit Project</h1>
+<form asp-action="Edit" asp-route-id="@Model.Id" method="post">
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name">
+    </div>
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <input type="text" class="form-control" id="Description" name="Description" value="@Model.Description">
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>

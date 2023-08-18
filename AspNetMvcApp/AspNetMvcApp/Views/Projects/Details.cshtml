@@ -1,0 +1,12 @@
+﻿@model AspNetMvcApp.Models.Project
+
+<h1>Project Details</h1>
+<div>
+    <h4>Name: @Model.Name</h4>
+    <p>Description: @Model.Description</p>
+</div>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Delete" asp-route-id="@Model.Id">Delete</a> |
+    <a asp-action="Index">Back to List</a>
+</p>

@@ -16,4 +16,14 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Users\" />
+    <None Remove="Views\Projects\" />
+    <None Remove="Views\Task\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Users\" />
+    <Folder Include="Views\Projects\" />
+    <Folder Include="Views\Task\" />
+  </ItemGroup>
 </Project>

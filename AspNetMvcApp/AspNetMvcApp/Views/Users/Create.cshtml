@@ -1,0 +1,14 @@
+﻿@model AspNetMvcApp.Models.Task
+
+<h1>Create Task</h1>
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="Title">Title</label>
+        <input type="text" class="form-control" id="Title" name="Title" value="@Model.Title">
+    </div>
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <input type="text" class="form-control" id="Description" name="Description" value="@Model.Description">
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
