@@ -1,33 +1,41 @@
 ﻿<Properties StartupConfiguration="{22745E9F-0D14-4F56-AECB-DA8B8FFA2C7B}|https">
-  <MonoDevelop.Ide.ItemProperties.AspNetMvcApp PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetMvcApp/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetMvcApp/Models/ApplicationDbContext.cs">
     <Files>
-      <File FileName="AspNetMvcApp/Models/ErrorViewModel.cs" />
-      <File FileName="AspNetMvcApp/Views/_ViewImports.cshtml" />
-      <File FileName="AspNetMvcApp/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="AspNetMvcApp/Controllers/UsersController.cs" Line="20" Column="1" />
+      <File FileName="AspNetMvcApp/Views/Users/Index.cshtml" Line="18" Column="17" />
+      <File FileName="AspNetMvcApp/Models/ApplicationDbContext.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AspNetMvcApp" expanded="True">
             <Node name="NuGet.Config files" expanded="True" />
-            <Node name="AspNetMvcApp" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+            <Node name="AspNetMvcApp">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ApplicationDbContext.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Views">
+                <Node name="Home" expanded="True" />
+                <Node name="Projects" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Task" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AspNetMvcApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

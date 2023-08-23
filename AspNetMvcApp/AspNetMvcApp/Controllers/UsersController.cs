@@ -13,6 +13,7 @@ namespace AspNetMvcApp.Controllers
             _context = context;
         }
 
+
         // Действие для отображения списка пользователей
         public IActionResult Index()
         {

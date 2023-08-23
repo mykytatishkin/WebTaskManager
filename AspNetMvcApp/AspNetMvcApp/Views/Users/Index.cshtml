@@ -1,28 +1,33 @@
-﻿@model List<AspNetMvcApp.Models.Task>
+﻿@model List<AspNetMvcApp.Models.User>
 
-<h1>Task List</h1>
+<h2>User List</h2>
+
 <table class="table">
     <thead>
         <tr>
             <th>ID</th>
-            <th>Title</th>
-            <th>Description</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Password</th>
             <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var task in Model)
+        @foreach (var user in Model)
         {
             <tr>
-                <td>@task.Id</td>
-                <td>@task.Title</td>
-                <td>@task.Description</td>
+                <td>@user.Id</td>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.Password</td>
                 <td>
-                    <a asp-action="Details" asp-route-id="@task.Id">Details</a> |
-                    <a asp-action="Edit" asp-route-id="@task.Id">Edit</a> |
-                    <a asp-action="Delete" asp-route-id="@task.Id">Delete</a>
+                    <a asp-action="Details" asp-route-id="@user.Id">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@user.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@user.Id">Delete</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+<a asp-action="Create" class="btn btn-primary">Create New</a>
