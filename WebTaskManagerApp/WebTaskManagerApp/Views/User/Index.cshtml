@@ -1,0 +1,28 @@
+﻿@model IEnumerable<WebTaskManagerApp.Models.TaskViewModel>
+
+@if(string.IsNullOrEmpty(ViewBag.LoggedName))
+{
+    <h4>Welcome, guest!</h4>
+}
+else
+{
+    <h3>Welcome, @ViewBag.LoggedName!</h3>
+    @foreach (WebTaskManagerApp.Models.TaskViewModel item in Model)
+    {
+        <div class="project">
+            <h4><b>@item.CurrentProject.Title</b></h4>
+            <div style="color:darkorchid; font-size: 15px; ">@item.CurrentProject.Description</div>
+            <ul>
+            @foreach (WebTaskManagerApp.Models.Task task in item.LinkedTasks)
+            {
+                <li>@task.Name</li>
+            }
+            </ul>
+            
+            
+            
+
+
+        </div>
+    }
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mykyta\\source\\repos\\WebTaskManagerApp\\WebTaskManagerApp\\WebTaskManagerApp.csproj": {}
+    "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\WebTaskManagerApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mykyta\\source\\repos\\WebTaskManagerApp\\WebTaskManagerApp\\WebTaskManagerApp.csproj": {
+    "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\WebTaskManagerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mykyta\\source\\repos\\WebTaskManagerApp\\WebTaskManagerApp\\WebTaskManagerApp.csproj",
+        "projectUniqueName": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\WebTaskManagerApp.csproj",
         "projectName": "WebTaskManagerApp",
-        "projectPath": "C:\\Users\\Mykyta\\source\\repos\\WebTaskManagerApp\\WebTaskManagerApp\\WebTaskManagerApp.csproj",
+        "projectPath": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\WebTaskManagerApp.csproj",
         "packagesPath": "C:\\Users\\Mykyta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mykyta\\source\\repos\\WebTaskManagerApp\\WebTaskManagerApp\\obj\\",
+        "outputPath": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tp4Dg29+l5z8iTSQDRMtWUJ7Jus2Hg7r6pDo0xRzaF9b4Yh3+uUm0Tko1EZe/aZkPOK2fq5zXDJD4Lg8sbO11w==",
+  "dgSpecHash": "wvdKqPZ1oAyR6/ArjO++2Y5PW91MAOnblgJdKooc+AmwcxLzEcy7NLIh583uQiRXFR6AhDS1OI9dw+FQN69x7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mykyta\\source\\repos\\WebTaskManagerApp\\WebTaskManagerApp\\WebTaskManagerApp.csproj",
+  "projectFilePath": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\WebTaskManagerApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mykyta\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Mykyta\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
