@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a47bEaK17S0MT0QKduO9a319rpublW9K3k3LZyHyxz4=",
+  "Hash": "y9nc+fvp3O4vSWIo1Rxo4xXPvIP1GU45oEvo4do2Hos=",
   "Source": "WebTaskManagerApp",
   "BasePath": "_content/WebTaskManagerApp",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
-    },
-    {
-      "Identity": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/favicon1.ico",
-      "SourceId": "WebTaskManagerApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/",
-      "BasePath": "_content/WebTaskManagerApp",
-      "RelativePath": "favicon1.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon1.ico"
     },
     {
       "Identity": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/js/site.js",
