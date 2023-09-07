@@ -6,10 +6,11 @@ namespace WebTaskManagerApp.Controllers
     public class UserController : Controller
     {
         private readonly TaskManagerContext _context;
-
-        public UserController(TaskManagerContext context)
+        private readonly ILogger<UserController> _logger;
+        public UserController(TaskManagerContext context, ILogger<UserController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         public IActionResult Index()
@@ -79,6 +80,7 @@ namespace WebTaskManagerApp.Controllers
                 u.Password == user.Password).FirstOrDefault();
             if(userInDb == null)
             {
+                _logger.LogWarning(string.Format("Failed login for email {0}[name {1}] with pass {2}", user.Email, user.Name, user.Password));
                 return RedirectToAction("Registration");
             }
             else
@@ -86,21 +88,32 @@ namespace WebTaskManagerApp.Controllers
                 HttpContext.Session.SetString("LoggedName", userInDb.Name);
                 HttpContext.Session.SetInt32("LoggedId", userInDb.Id);
                 HttpContext.Session.SetInt32("RoleId", userInDb.RoleId);
-
+                _logger.LogInformation(string.Format("Succedeed login for email {0}[name {1}] with pass {2}", user.Email, user.Name, user.Password));
                 return RedirectToAction("Index");
             }
         }
 
         public IActionResult SetCompleted(int Id, int Delta)
         {
+            _logger.LogInformation(string.Format("SetCompleted() starded with params id:{0}, Delta:{1}", Id, Delta));
+            
             var task = _context.Tasks.Find(Id);
             if(task != null)
             {
+                _logger.LogInformation(string.Format("Task {0} status changed from {1} to {2} by {3}", task.Name, task.Competed, Delta, task.AsigneeId));
                 task.Competed = Delta;
                 _context.Update(task);
                 _context.SaveChanges();
             }
             return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult MyPage()
+        {
+            // Partial Views
+
+            return View();
         }
     }
 }

@@ -1,0 +1,16 @@
+﻿<h1>MyPage</h1>
+
+<div>
+    <partial name="~/Views/Shared/_SimplePartial.cshtml" />
+</div>
+
+<div>
+    @*<partial name="~/Views/Shared/_StringPartial.cshtml"  model="London" />*@
+    @await Html.PartialAsync("_StringPartial", "London")
+    @await Html.PartialAsync("_StringPartial", "Kyiv")
+</div>
+
+<div>
+    @await Html.PartialAsync("_ListPartial", new List<string>(){"United Kingdom", "Ukraine", "USA", "France"})
+    @await Html.PartialAsync("_ListPartial", new List<string>(){"March", "April", "May"})
+</div>

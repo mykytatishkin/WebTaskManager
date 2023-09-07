@@ -1,0 +1,12 @@
+﻿@model List<string>
+<h3>List Partial</h3>
+<p>This is a page with one List&lt;string&gt; parameter</p>
+
+<ul>
+    @foreach (string item in Model)
+    {
+        <li>@item</li>
+    }
+</ul>
+
+<hr />

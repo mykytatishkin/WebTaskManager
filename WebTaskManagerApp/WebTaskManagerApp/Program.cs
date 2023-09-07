@@ -1,5 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Serilog.Events;
+using Serilog;
+
 namespace WebTaskManagerApp
 {
     public class Program
@@ -8,7 +11,7 @@ namespace WebTaskManagerApp
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddDbContext<TaskManagerContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("TaskManagerContextMacOs") ?? throw new InvalidOperationException("Connection string 'TaskManagerContext' not found.")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("TaskManagerContext") ?? throw new InvalidOperationException("Connection string 'TaskManagerContext' not found.")));
             
             builder.Services.AddSession(options =>
             {
@@ -16,7 +19,17 @@ namespace WebTaskManagerApp
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
-            
+
+            Log.Logger = new LoggerConfiguration()
+            .WriteTo.File(
+                string.Format("{0:yyyy}/{0:MM}-{0:dd}/WebLog.txt", DateTime.Now),
+                LogEventLevel.Information,
+                "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}"
+            )
+            .CreateLogger();
+
+            builder.Host.UseSerilog();
+
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             
