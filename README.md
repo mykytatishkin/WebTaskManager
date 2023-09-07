@@ -15,6 +15,8 @@ We've carefully chosen our technology stack to ensure a seamless development exp
 - ASP.NET: We leverage ASP.NET for creating powerful and dynamic web interfaces that cater to your task management needs.
 
 - EntityFramework: Our application employs EntityFramework, a state-of-the-art ORM (Object-Relational Mapping) tool, for efficient database interaction.
+  
+- Serilog: We utilize Serilog for advanced logging capabilities, ensuring comprehensive monitoring and analysis of application activities.
 
 - FluentAPI: We use FluentAPI to streamline database operations, making it easier than ever to manage your tasks and data.
 
