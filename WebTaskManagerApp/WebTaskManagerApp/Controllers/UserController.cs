@@ -6,6 +6,7 @@ namespace WebTaskManagerApp.Controllers
     public class UserController : Controller
     {
         private readonly TaskManagerContext _context;
+
         public UserController(TaskManagerContext context)
         {
             _context = context;
@@ -40,10 +41,24 @@ namespace WebTaskManagerApp.Controllers
         }
 
         [HttpPost]
-        public IActionResult Registration(User user)
+        public IActionResult Registration(User user, IFormFile Avatar)
         {
+            string base64 = string.Empty;
+            if (Avatar != null)
+            {
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    Avatar.OpenReadStream().CopyTo(ms);
+                    ms.Seek(0, SeekOrigin.Begin);
+                    byte[] data = ms.ToArray();
+                    base64 = Convert.ToBase64String(data);
+                    user.Avatar = base64;
+                }
+            }
             _context.Users.Add(user);
             _context.SaveChanges();
+
+            // Csookie
             HttpContext.Session.SetString("LoggedName", user.Name);
             HttpContext.Session.SetInt32("LoggedId", user.Id);
             HttpContext.Session.SetInt32("RoleId", user.RoleId);

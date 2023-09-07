@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebTaskManagerApp
 build_property.RootNamespace = WebTaskManagerApp
-build_property.ProjectDir = C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\
+build_property.ProjectDir = /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+build_property.MSBuildProjectDirectory = /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQ3JlYXRlLmNzaHRtbA==
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvamVjdHMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/CreateTasks.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQ3JlYXRlVGFza3MuY3NodG1s
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/CreateTasks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvamVjdHMvQ3JlYXRlVGFza3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRGVsZXRlLmNzaHRtbA==
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvamVjdHMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRGV0YWlscy5jc2h0bWw=
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvamVjdHMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRWRpdC5jc2h0bWw=
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvamVjdHMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcSW5kZXguY3NodG1s
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvamVjdHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/User/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/User/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/User/Registration.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3RyYXRpb24uY3NodG1s
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/User/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9SZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-7e7v0xwt8e
+[/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eme16mjgi2
