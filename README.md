@@ -3,13 +3,25 @@
 
 ![logo](https://github.com/mykytatishkin/WebTaskManager/blob/main/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac512.png)
 
-It`s web application for team task managment.
-
-## Why this stack?
-Bcs, Im developing this app on 2 devices.
-First: PC on Windows 11
-Second: MacBook M1 Pro
-So, to use SQL Server on MacOs, I need to buy or to use Docker Container.
-Application based on .NET 7+, ASP.NET
-
 [My inspiration](https://chat.openai.com/share/f11b7950-89ae-46f9-99ca-572bee11ded4)
+
+# What Makes Our Tech Stack Stand Out?
+We've carefully chosen our technology stack to ensure a seamless development experience across multiple devices. Whether you're working on a Windows 11 PC or a MacBook M1 Pro, we've got you covered.
+
+### Key Technologies:
+
+- .NET 7+: Our foundation is built on the robust .NET framework, ensuring high-performance and reliability.
+
+- ASP.NET: We leverage ASP.NET for creating powerful and dynamic web interfaces that cater to your task management needs.
+
+- EntityFramework: Our application employs EntityFramework, a state-of-the-art ORM (Object-Relational Mapping) tool, for efficient database interaction.
+
+- FluentAPI: We use FluentAPI to streamline database operations, making it easier than ever to manage your tasks and data.
+
+- 🍪 Cookie Files: Enhancing user experience is crucial to us, and that's why we utilize cookie files to provide a personalized and seamless interaction.
+
+Plus, with our Docker Container integration, macOS users can effortlessly run SQL Server, ensuring cross-platform compatibility without any hassle.
+
+Experience a beautifully designed application that simplifies team task management like never before!
+
+
