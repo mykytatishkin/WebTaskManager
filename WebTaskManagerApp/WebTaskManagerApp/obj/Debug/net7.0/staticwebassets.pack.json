@@ -5,12 +5,124 @@
       "PackagePath": "staticwebassets/WebTaskManagerApp.bundle.scp.css"
     },
     {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/Contents.json",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/Contents.json"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/appstore1024.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/appstore1024.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipad152.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipad152.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipad76.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipad76.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadNotification20.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadNotification20.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadNotification40.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadNotification40.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadPro167.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadPro167.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadSettings29.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadSettings29.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadSettings58.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadSettings58.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadSpotlight40.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadSpotlight40.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadSpotlight80.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadSpotlight80.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/iphone120.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/iphone120.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/iphone180.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/iphone180.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac1024.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac1024.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac128.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac128.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac16.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac16.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac256.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac256.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac32.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac32.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac512.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac512.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac64.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac64.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/notification40.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/notification40.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/notification60.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/notification60.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/settings58.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/settings58.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/settings87.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/settings87.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/spotlight120.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/spotlight120.png"
+    },
+    {
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/spotlight80.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/spotlight80.png"
     },
     {
       "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/js/site.js",
