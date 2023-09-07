@@ -16,16 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/CreateTasks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQ3JlYXRlVGFza3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Mykyta/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/Views/Projects/Delete.cshtml]

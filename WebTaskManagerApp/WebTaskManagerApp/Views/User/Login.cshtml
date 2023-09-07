@@ -29,9 +29,19 @@
 </div>
 
 <div>
-    <a asp-action="Registration">Registration</a>
+    Don`t have an account? <a asp-action="Registration">Register it now!</a>
 </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+<style>
+    *{
+        color: white;
+    }
+    body{
+        background: linear-gradient(#0083B0,#00B4DB);
+    }
+
+</style>

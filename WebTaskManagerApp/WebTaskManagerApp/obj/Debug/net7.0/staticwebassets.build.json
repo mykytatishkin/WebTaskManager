@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9jcmeS6lB0t6MMMmrhiONYOulelgjE0vENSMk8LyO3Q=",
+  "Hash": "cCQnw7NIGFtxPIjoR+PC+v12P0gDeG+C+9vpQVPiHiA=",
   "Source": "WebTaskManagerApp",
   "BasePath": "_content/WebTaskManagerApp",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\favicon1.ico",
+      "SourceId": "WebTaskManagerApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\",
+      "BasePath": "_content/WebTaskManagerApp",
+      "RelativePath": "favicon1.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon1.ico"
     },
     {
       "Identity": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\js\\site.js",

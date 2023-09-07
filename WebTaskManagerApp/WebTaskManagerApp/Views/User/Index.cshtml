@@ -2,27 +2,48 @@
 
 @if(string.IsNullOrEmpty(ViewBag.LoggedName))
 {
-    <h4>Welcome, guest!</h4>
+    <h3>Welcome, guest!</h3>
+    <div>
+        <center>Don`t have an account? <a asp-action="Registration">Register it now!</a> or <a asp-action="Login">Login</a></center>
+    </div>
 }
 else
 {
     <h3>Welcome, @ViewBag.LoggedName!</h3>
+    <div>
+        <div class="d-flex justify-content-start">
+            <img style="width: 250px; border-radius: 100%" src="https://www.clevelanddentalhc.com/wp-content/uploads/2018/03/sample-avatar.jpg" />
+        </div>
+        <div>
+            <input value="@ViewBag.LoggedName" disabled="true" class="form-control"></input>
+            <input type="password" value="your password here" disabled="true" class="form-control"></input>
+            <input type="email" value="your email here" disabled="true" class="form-control"></input>
+            <input type="text" value="your roleId here" disabled="true" class="form-control"></input>
+        </div>
+    </div>
+    <hr />
+    
     @foreach (WebTaskManagerApp.Models.TaskViewModel item in Model)
     {
-        <div class="project">
+        <div class="project" style="background-color:ghostwhite; padding: 5px; margin 2px;">
             <h4><b>@item.CurrentProject.Title</b></h4>
-            <div style="color:darkorchid; font-size: 15px; ">@item.CurrentProject.Description</div>
-            <ul>
+            <div style="color:dodgerblue; font-size: 15px; ">@item.CurrentProject.Description</div>
             @foreach (WebTaskManagerApp.Models.Task task in item.LinkedTasks)
             {
-                <li>@task.Name</li>
+                <p>@task.Id &nbsp; @task.Name</p>
+                <p>@task.Description</p>
+                <form asp-action="SetCompleted">
+                    <p><input value="@task.Id" type="hidden" size="3" name="Id"/></p>
+                    <input value="@task.Competed" type="text" size="3" name="Delta"/>
+                    <input value="Update" type="submit" class="btn btn-primary"/>
+                </form>
             }
-            </ul>
-            
-            
-            
-
-
         </div>
     }
 }
+
+<style>
+    h3 {
+        text-align:center
+    }
+</style>

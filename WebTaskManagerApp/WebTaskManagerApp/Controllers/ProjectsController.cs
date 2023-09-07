@@ -51,12 +51,12 @@ namespace WebTaskManagerApp.Controllers
         }
 
         // POST: Projects/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,Description,CreatedAt,CreatorId")] Project project)
         {
+            project.CreatedAt = DateTime.Now;
+            project.CreatorId = (int)HttpContext.Session.GetInt32("LoggedId");
             if (ModelState.IsValid)
             {
                 _context.Add(project);
@@ -157,6 +157,29 @@ namespace WebTaskManagerApp.Controllers
         private bool ProjectExists(int id)
         {
           return (_context.Project?.Any(e => e.Id == id)).GetValueOrDefault();
+        }
+
+        public IActionResult CreateTasks()
+        {
+            ViewBag.projects = _context.Project.ToList();
+            ViewBag.users = _context.Users.ToList();
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateTasks(WebTaskManagerApp.Models.Task task)
+        {
+            task.Competed = 0;
+            task.CreatedAt = DateTime.Now;
+            
+            if(ModelState.IsValid)
+            {
+                _context.Add(task);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(task);
         }
     }
 }

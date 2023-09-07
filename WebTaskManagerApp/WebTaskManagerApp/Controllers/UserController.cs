@@ -44,7 +44,11 @@ namespace WebTaskManagerApp.Controllers
         {
             _context.Users.Add(user);
             _context.SaveChanges();
-            return View();
+            HttpContext.Session.SetString("LoggedName", user.Name);
+            HttpContext.Session.SetInt32("LoggedId", user.Id);
+            HttpContext.Session.SetInt32("RoleId", user.RoleId);
+
+            return RedirectToAction("Index");
         }
         [HttpGet]
         public IActionResult Login()
@@ -66,10 +70,22 @@ namespace WebTaskManagerApp.Controllers
             {
                 HttpContext.Session.SetString("LoggedName", userInDb.Name);
                 HttpContext.Session.SetInt32("LoggedId", userInDb.Id);
+                HttpContext.Session.SetInt32("RoleId", userInDb.RoleId);
+
                 return RedirectToAction("Index");
             }
+        }
 
-            return View();
+        public IActionResult SetCompleted(int Id, int Delta)
+        {
+            var task = _context.Tasks.Find(Id);
+            if(task != null)
+            {
+                task.Competed = Delta;
+                _context.Update(task);
+                _context.SaveChanges();
+            }
+            return RedirectToAction("Index");
         }
     }
 }

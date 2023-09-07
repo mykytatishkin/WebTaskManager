@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\favicon1.ico",
+      "PackagePath": "staticwebassets\\favicon1.ico"
+    },
+    {
       "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
