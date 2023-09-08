@@ -11,7 +11,7 @@ namespace WebTaskManagerApp
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddDbContext<TaskManagerContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("TaskManagerContext") ?? throw new InvalidOperationException("Connection string 'TaskManagerContext' not found.")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("TaskManagerContextMacOs") ?? throw new InvalidOperationException("Connection string 'TaskManagerContext' not found.")));
             
             builder.Services.AddSession(options =>
             {

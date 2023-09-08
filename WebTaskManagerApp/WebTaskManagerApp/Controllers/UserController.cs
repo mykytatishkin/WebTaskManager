@@ -76,11 +76,22 @@ namespace WebTaskManagerApp.Controllers
         [HttpPost]
         public IActionResult Login(User user)
         {
-            User userInDb = _context.Users.Where(u => u.Name == user.Name &&
-                u.Password == user.Password).FirstOrDefault();
-            if(userInDb == null)
+            _logger.LogInformation(string.Format("&&& Login() starded with params id:{0}, name:{1}, email: {2}, password: {3}", user.Id, user.Name, user.Email, user.Password));
+
+
+#pragma warning disable CS8600
+
+            User userInDb = _context.Users.Where(
+                   u => u.Name == user.Name
+                || u.Email == user.Email
+                && u.Password == user.Password
+            ).FirstOrDefault();
+
+#pragma warning restore CS8600
+
+            if (userInDb == null)
             {
-                _logger.LogWarning(string.Format("Failed login for email {0}[name {1}] with pass {2}", user.Email, user.Name, user.Password));
+                _logger.LogWarning(string.Format("&&& Failed login for email {0}[name {1}] with pass {2}", user.Email, user.Name, user.Password));
                 return RedirectToAction("Registration");
             }
             else
@@ -88,19 +99,19 @@ namespace WebTaskManagerApp.Controllers
                 HttpContext.Session.SetString("LoggedName", userInDb.Name);
                 HttpContext.Session.SetInt32("LoggedId", userInDb.Id);
                 HttpContext.Session.SetInt32("RoleId", userInDb.RoleId);
-                _logger.LogInformation(string.Format("Succedeed login for email {0}[name {1}] with pass {2}", user.Email, user.Name, user.Password));
+                _logger.LogInformation(string.Format("&&& Succedeed login for email {0}[name {1}] with pass {2}", user.Email, user.Name, user.Password));
                 return RedirectToAction("Index");
             }
         }
 
         public IActionResult SetCompleted(int Id, int Delta)
         {
-            _logger.LogInformation(string.Format("SetCompleted() starded with params id:{0}, Delta:{1}", Id, Delta));
+            _logger.LogInformation(string.Format("&&& SetCompleted() starded with params id:{0}, Delta:{1}", Id, Delta));
             
             var task = _context.Tasks.Find(Id);
             if(task != null)
             {
-                _logger.LogInformation(string.Format("Task {0} status changed from {1} to {2} by {3}", task.Name, task.Competed, Delta, task.AsigneeId));
+                _logger.LogInformation(string.Format("&&& Task {0} status changed from {1} to {2} by {3}", task.Name, task.Competed, Delta, task.AsigneeId));
                 task.Competed = Delta;
                 _context.Update(task);
                 _context.SaveChanges();

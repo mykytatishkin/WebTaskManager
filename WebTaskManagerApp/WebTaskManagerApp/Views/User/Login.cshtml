@@ -7,41 +7,81 @@
 
 <h1>Login</h1>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Login">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
+
+<div class="container md">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-4 row justify-content-center align-items-center">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-light" name="UsernameButton">Username</button>
+                <button type="button" class="btn btn-light" name="EmailButton">Email</button>
             </div>
-            <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input type="password" asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Login" class="btn btn-primary" />
-            </div>
-        </form>
+            <form asp-action="Login">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label name="LoginLabel" asp-for="Name" class="control-label"></label>
+                    <input name="LoginInput" asp-for="Name" class="form-control" />
+                    <span  name="LoginSpan" asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input type="password" asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                &nbsp;
+                <div class="form-group row justify-content-center align-items-center">
+                    <input style="width: 50%" type="submit" value="Login" class="btn btn-light" />
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
-<div>
-    Don`t have an account? <a asp-action="Registration">Register it now!</a>
+<div class="row justify-content-center align-items-center">
+    Don`t have an account? <a asp-action="Registration" class="row justify-content-center align-items-center">Register it now!</a>
 </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
 
+<script>
+    const usernameButton = document.querySelector('button[name="UsernameButton"]');
+    const emailButton = document.querySelector('button[name="EmailButton"]');
+
+    const label = document.querySelector('label[name="LoginLabel"]');
+    const input = document.querySelector('input[name="LoginInput"]');
+    const span = document.querySelector('span[name="LoginSpan"]');
+
+    usernameButton.addEventListener('click', function () {
+        console.log("usernameButton()")
+
+        label.setAttribute('asp-for', 'Name');
+        input.setAttribute('asp-for', 'Name');
+        span.setAttribute('asp-validation-for', 'Name');
+        form.setAttribute('asp-action', 'Name');
+    });
+
+    emailButton.addEventListener('click', function () {
+        console.log("emailButton()")
+
+        label.setAttribute('asp-for', 'Email');
+        input.setAttribute('asp-for', 'Email');
+        span.setAttribute('asp-validation-for', 'Email');
+        form.setAttribute('asp-action', 'Email');
+    });
+
+</script>
+
 <style>
-    *{
+    *, a {
         color: white;
     }
-    body{
-        background: linear-gradient(#0083B0,#00B4DB);
+    body {
+        /*background-color: #3478f6;*/
+        background-color: #d6e4fd;
+        opacity: 1;
+        background-image: radial-gradient(circle at center center, #3478f6, #d6e4fd), repeating-radial-gradient(circle at center center, #3478f6, #3478f6, 40px, transparent 80px, transparent 40px);
+        background-blend-mode: multiply;
     }
 
 </style>

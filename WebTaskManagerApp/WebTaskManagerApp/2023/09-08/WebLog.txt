@@ -1,0 +1,824 @@
+[09:45:38 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[09:45:38 INF] Now listening on: http://localhost:5214
+[09:45:38 INF] Application started. Press Ctrl+C to shut down.
+[09:45:38 INF] Hosting environment: Development
+[09:45:38 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[09:45:39 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[09:45:39 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:45:39 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[09:45:55 ERR] An error occurred using the connection to database 'TaskManager' on server '.'.
+[09:45:55 ERR] An exception occurred while iterating over the results of a query for context type 'TaskManagerContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server: Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server: Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+[09:46:09 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[09:46:09 INF] Now listening on: http://localhost:5214
+[09:46:09 INF] Application started. Press Ctrl+C to shut down.
+[09:46:09 INF] Hosting environment: Development
+[09:46:09 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[09:46:10 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[09:46:10 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:46:10 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[09:46:11 INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[09:46:11 INF] Executing ViewResult, running view Login.
+[09:46:11 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[09:46:11 INF] Executed ViewResult - view Login executed in 97.1621ms.
+[09:46:11 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 689.7558ms
+[09:46:11 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:46:11 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 723.7726ms
+[09:46:11 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/css/bootstrap.min.css - -
+[09:46:11 INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+[09:46:11 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 2.8729ms
+[09:46:11 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - -
+[09:46:11 INF] The file /css/site.css was not modified
+[09:46:11 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - - - 304 - text/css 0.7049ms
+[09:46:11 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - -
+[09:46:11 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery/dist/jquery.min.js - -
+[09:46:11 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+[09:46:11 INF] The file /lib/jquery/dist/jquery.min.js was not modified
+[09:46:11 INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+[09:46:11 INF] Request starting HTTP/1.1 GET http://localhost:5214/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - -
+[09:46:11 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery/dist/jquery.min.js - - - 304 - text/javascript 0.4780ms
+[09:46:11 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - text/javascript 0.3931ms
+[09:46:11 INF] The file /js/site.js was not modified
+[09:46:11 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+[09:46:11 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery-validation/dist/jquery.validate.min.js - -
+[09:46:11 INF] Sending file. Request path: '/WebTaskManagerApp.styles.css'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/obj/Debug/net7.0/scopedcss/bundle/WebTaskManagerApp.styles.css'
+[09:46:11 INF] Request finished HTTP/1.1 GET http://localhost:5214/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - - - 304 - text/javascript 1.3295ms
+[09:46:11 INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+[09:46:11 INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+[09:46:11 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery-validation/dist/jquery.validate.min.js - - - 304 - text/javascript 1.2592ms
+[09:46:11 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 304 - text/javascript 1.3946ms
+[09:46:11 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - - - 200 1085 text/css 7.1361ms
+[09:46:11 INF] Request starting HTTP/1.1 GET http://localhost:5214/favicon.ico - -
+[09:46:11 INF] The file /favicon.ico was not modified
+[09:46:11 INF] Request finished HTTP/1.1 GET http://localhost:5214/favicon.ico - - - 304 - image/x-icon 0.5456ms
+[09:46:14 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Registration - -
+[09:46:14 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp)'
+[09:46:14 INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registration() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[09:46:14 INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[09:46:14 INF] Executing ViewResult, running view Registration.
+[09:46:14 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[09:46:14 INF] Executed ViewResult - view Registration executed in 39.862ms.
+[09:46:14 INF] Executed action WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp) in 55.5617ms
+[09:46:14 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp)'
+[09:46:14 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Registration - - - 200 - text/html;+charset=utf-8 64.0193ms
+[09:46:14 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - -
+[09:46:14 INF] The file /WebTaskManagerApp.styles.css was not modified
+[09:46:14 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - - - 304 - text/css 0.3324ms
+[09:46:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[09:46:16 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:46:16 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[09:46:16 INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[09:46:16 INF] Executing ViewResult, running view Login.
+[09:46:16 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[09:46:16 INF] Executed ViewResult - view Login executed in 3.9266ms.
+[09:46:16 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 54.982ms
+[09:46:16 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:46:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 57.9157ms
+[09:46:19 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[09:46:19 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:46:19 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[09:46:19 INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[09:46:19 INF] Executing ViewResult, running view Login.
+[09:46:19 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[09:46:19 INF] Executed ViewResult - view Login executed in 1.9545ms.
+[09:46:19 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 13.3438ms
+[09:46:19 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:46:19 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 14.3509ms
+[09:46:19 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - -
+[09:46:19 INF] The file /WebTaskManagerApp.styles.css was not modified
+[09:46:19 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - - - 304 - text/css 0.4990ms
+[09:56:38 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[09:56:38 INF] Now listening on: http://localhost:5214
+[09:56:38 INF] Application started. Press Ctrl+C to shut down.
+[09:56:38 INF] Hosting environment: Development
+[09:56:38 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[09:56:39 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[09:56:39 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:56:39 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[09:56:39 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[09:56:39 INF] Executing ViewResult, running view Login.
+[09:56:40 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[09:56:40 INF] Executed ViewResult - view Login executed in 90.7307ms.
+[09:56:40 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 657.708ms
+[09:56:40 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:56:40 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 692.1527ms
+[09:56:40 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - -
+[09:56:40 INF] The file /WebTaskManagerApp.styles.css was not modified
+[09:56:40 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - - - 304 - text/css 2.5652ms
+[09:57:44 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[09:57:44 INF] Now listening on: http://localhost:5214
+[09:57:44 INF] Application started. Press Ctrl+C to shut down.
+[09:57:44 INF] Hosting environment: Development
+[09:57:44 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[09:57:45 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[09:57:45 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:57:45 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[09:57:46 INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[09:57:46 INF] Executing ViewResult, running view Login.
+[09:57:46 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[09:57:46 INF] Executed ViewResult - view Login executed in 93.0317ms.
+[09:57:46 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 670.2653ms
+[09:57:46 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:57:46 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 704.0566ms
+[09:57:46 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - -
+[09:57:46 INF] The file /WebTaskManagerApp.styles.css was not modified
+[09:57:46 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - - - 304 - text/css 2.7793ms
+[09:58:20 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[09:58:20 INF] Now listening on: http://localhost:5214
+[09:58:20 INF] Application started. Press Ctrl+C to shut down.
+[09:58:20 INF] Hosting environment: Development
+[09:58:20 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[09:58:21 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[09:58:21 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:58:21 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[09:58:22 INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[09:58:22 INF] Executing ViewResult, running view Login.
+[09:58:22 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[09:58:22 INF] Executed ViewResult - view Login executed in 88.0752ms.
+[09:58:22 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 649.1773ms
+[09:58:22 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[09:58:22 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 684.0115ms
+[09:58:22 INF] Request starting HTTP/1.1 GET http://localhost:5214/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - -
+[09:58:22 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+[09:58:22 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery/dist/jquery.min.js - -
+[09:58:22 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+[09:58:22 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery-validation/dist/jquery.validate.min.js - -
+[09:58:22 INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'
+[09:58:22 INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+[09:58:22 INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/js/site.js'
+[09:58:22 INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js'
+[09:58:22 INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery/dist/jquery.min.js'
+[09:58:22 INF] Request finished HTTP/1.1 GET http://localhost:5214/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - - - 200 226 text/javascript 13.2793ms
+[09:58:22 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery/dist/jquery.min.js - - - 200 89501 text/javascript 13.4861ms
+[09:58:22 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery-validation/dist/jquery.validate.min.js - - - 200 23261 text/javascript 13.1205ms
+[09:58:22 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 200 5824 text/javascript 13.1036ms
+[09:58:22 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 text/javascript 13.0823ms
+[09:58:31 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+[09:58:31 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/css/bootstrap.min.css.map - -
+[09:58:31 INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'
+[09:58:31 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 14.1060ms
+[09:58:31 INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map'
+[09:58:31 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 449111 text/plain 13.7218ms
+[10:20:16 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:20:16 INF] Now listening on: http://localhost:5214
+[10:20:16 INF] Application started. Press Ctrl+C to shut down.
+[10:20:16 INF] Hosting environment: Development
+[10:20:16 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:20:17 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:20:17 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:20:17 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:20:18 INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:20:18 INF] Executing ViewResult, running view Login.
+[10:20:18 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:20:18 INF] Executed ViewResult - view Login executed in 86.1448ms.
+[10:20:18 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 655.4414ms
+[10:20:18 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:20:18 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 687.8289ms
+[10:20:18 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - -
+[10:20:18 INF] The file /WebTaskManagerApp.styles.css was not modified
+[10:20:18 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - - - 304 - text/css 2.7590ms
+[10:20:40 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:20:40 INF] Now listening on: http://localhost:5214
+[10:20:40 INF] Application started. Press Ctrl+C to shut down.
+[10:20:40 INF] Hosting environment: Development
+[10:20:40 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:20:41 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:20:41 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:20:41 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:20:42 INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:20:42 INF] Executing ViewResult, running view Login.
+[10:20:42 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:20:42 INF] Executed ViewResult - view Login executed in 87.3719ms.
+[10:20:42 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 637.2389ms
+[10:20:42 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:20:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 667.3952ms
+[10:23:56 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:23:56 INF] Now listening on: http://localhost:5214
+[10:23:56 INF] Application started. Press Ctrl+C to shut down.
+[10:23:56 INF] Hosting environment: Development
+[10:23:56 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:23:57 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:23:57 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:23:57 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:23:57 INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:23:57 INF] Executing ViewResult, running view Login.
+[10:23:57 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:23:57 INF] Executed ViewResult - view Login executed in 91.1165ms.
+[10:23:57 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 651.3377ms
+[10:23:57 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:23:57 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 683.3959ms
+[10:23:57 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - -
+[10:23:57 INF] The file /WebTaskManagerApp.styles.css was not modified
+[10:23:57 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - - - 304 - text/css 2.4565ms
+[10:25:08 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:25:08 INF] Now listening on: http://localhost:5214
+[10:25:08 INF] Application started. Press Ctrl+C to shut down.
+[10:25:08 INF] Hosting environment: Development
+[10:25:08 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:25:09 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:25:09 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:25:09 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:25:09 INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:25:09 INF] Executing ViewResult, running view Login.
+[10:25:10 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:25:10 INF] Executed ViewResult - view Login executed in 96.8794ms.
+[10:25:10 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 771.6434ms
+[10:25:10 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:25:10 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 808.6139ms
+[10:25:45 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:25:45 INF] Now listening on: http://localhost:5214
+[10:25:45 INF] Application started. Press Ctrl+C to shut down.
+[10:25:45 INF] Hosting environment: Development
+[10:25:45 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:25:46 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:25:46 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:25:46 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:25:46 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:25:47 INF] Executing ViewResult, running view Login.
+[10:25:47 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:25:47 INF] Executed ViewResult - view Login executed in 96.0901ms.
+[10:25:47 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 755.2434ms
+[10:25:47 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:25:47 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 794.1255ms
+[10:26:02 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:26:02 INF] Now listening on: http://localhost:5214
+[10:26:02 INF] Application started. Press Ctrl+C to shut down.
+[10:26:02 INF] Hosting environment: Development
+[10:26:02 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:26:03 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:26:03 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:26:03 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:26:04 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:26:04 INF] Executing ViewResult, running view Login.
+[10:26:04 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:26:04 INF] Executed ViewResult - view Login executed in 96.3873ms.
+[10:26:04 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 755.0838ms
+[10:26:04 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:26:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 793.6330ms
+[10:26:30 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:26:30 INF] Now listening on: http://localhost:5214
+[10:26:30 INF] Application started. Press Ctrl+C to shut down.
+[10:26:30 INF] Hosting environment: Development
+[10:26:30 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:26:31 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:26:31 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:26:31 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:26:32 INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:26:32 INF] Executing ViewResult, running view Login.
+[10:26:32 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:26:32 INF] Executed ViewResult - view Login executed in 98.4089ms.
+[10:26:32 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 761.819ms
+[10:26:32 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:26:32 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 800.3088ms
+[10:26:46 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:26:46 INF] Now listening on: http://localhost:5214
+[10:26:46 INF] Application started. Press Ctrl+C to shut down.
+[10:26:46 INF] Hosting environment: Development
+[10:26:46 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:26:47 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:26:47 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:26:47 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:26:48 INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:26:48 INF] Executing ViewResult, running view Login.
+[10:26:48 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:26:48 INF] Executed ViewResult - view Login executed in 98.1565ms.
+[10:26:48 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 737.5412ms
+[10:26:48 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:26:48 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 776.2440ms
+[10:27:00 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:27:00 INF] Now listening on: http://localhost:5214
+[10:27:00 INF] Application started. Press Ctrl+C to shut down.
+[10:27:00 INF] Hosting environment: Development
+[10:27:00 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:27:01 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:27:01 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:27:01 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:27:01 INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:27:01 INF] Executing ViewResult, running view Login.
+[10:27:02 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:27:02 INF] Executed ViewResult - view Login executed in 95.1822ms.
+[10:27:02 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 756.1491ms
+[10:27:02 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:27:02 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 793.8115ms
+[10:27:14 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:27:14 INF] Now listening on: http://localhost:5214
+[10:27:14 INF] Application started. Press Ctrl+C to shut down.
+[10:27:14 INF] Hosting environment: Development
+[10:27:14 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:27:15 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:27:15 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:27:15 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:27:16 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:27:16 INF] Executing ViewResult, running view Login.
+[10:27:16 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:27:16 INF] Executed ViewResult - view Login executed in 96.7041ms.
+[10:27:16 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 735.1999ms
+[10:27:16 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:27:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 772.5277ms
+[10:27:24 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:27:25 INF] Now listening on: http://localhost:5214
+[10:27:25 INF] Application started. Press Ctrl+C to shut down.
+[10:27:25 INF] Hosting environment: Development
+[10:27:25 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:27:26 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:27:26 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:27:26 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:27:26 INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:27:26 INF] Executing ViewResult, running view Login.
+[10:27:26 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:27:26 INF] Executed ViewResult - view Login executed in 104.5672ms.
+[10:27:26 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 778.7163ms
+[10:27:26 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:27:26 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 822.1566ms
+[10:27:50 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:27:50 INF] Now listening on: http://localhost:5214
+[10:27:50 INF] Application started. Press Ctrl+C to shut down.
+[10:27:50 INF] Hosting environment: Development
+[10:27:50 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:27:51 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:27:51 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:27:51 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:27:51 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:27:51 INF] Executing ViewResult, running view Login.
+[10:27:51 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:27:51 INF] Executed ViewResult - view Login executed in 98.0854ms.
+[10:27:51 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 758.9835ms
+[10:27:51 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:27:51 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 798.3982ms
+[10:27:51 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - -
+[10:27:51 INF] The file /WebTaskManagerApp.styles.css was not modified
+[10:27:51 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - - - 304 - text/css 3.5319ms
+[10:28:15 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:28:15 INF] Now listening on: http://localhost:5214
+[10:28:15 INF] Application started. Press Ctrl+C to shut down.
+[10:28:15 INF] Hosting environment: Development
+[10:28:15 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:28:17 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:28:17 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:28:17 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:28:17 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:28:17 INF] Executing ViewResult, running view Login.
+[10:28:17 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:28:17 INF] Executed ViewResult - view Login executed in 100.868ms.
+[10:28:17 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 771.8186ms
+[10:28:17 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:28:17 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 810.3642ms
+[10:28:27 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:28:27 INF] Now listening on: http://localhost:5214
+[10:28:27 INF] Application started. Press Ctrl+C to shut down.
+[10:28:27 INF] Hosting environment: Development
+[10:28:27 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:28:28 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:28:28 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:28:28 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:28:29 INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:28:29 INF] Executing ViewResult, running view Login.
+[10:28:29 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:28:29 INF] Executed ViewResult - view Login executed in 96.148ms.
+[10:28:29 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 758.6771ms
+[10:28:29 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:28:29 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 796.7566ms
+[10:28:58 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:28:58 INF] Now listening on: http://localhost:5214
+[10:28:58 INF] Application started. Press Ctrl+C to shut down.
+[10:28:58 INF] Hosting environment: Development
+[10:28:58 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:28:59 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:28:59 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:28:59 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:28:59 INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:28:59 INF] Executing ViewResult, running view Login.
+[10:28:59 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:28:59 INF] Executed ViewResult - view Login executed in 100.969ms.
+[10:28:59 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 748.6352ms
+[10:28:59 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:28:59 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 786.9062ms
+[10:29:14 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:29:14 INF] Now listening on: http://localhost:5214
+[10:29:14 INF] Application started. Press Ctrl+C to shut down.
+[10:29:14 INF] Hosting environment: Development
+[10:29:14 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:29:15 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:29:15 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:29:15 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:29:16 INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:29:16 INF] Executing ViewResult, running view Login.
+[10:29:16 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:29:16 INF] Executed ViewResult - view Login executed in 96.3851ms.
+[10:29:16 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 746.734ms
+[10:29:16 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:29:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 784.9284ms
+[10:30:13 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:30:13 INF] Now listening on: http://localhost:5214
+[10:30:13 INF] Application started. Press Ctrl+C to shut down.
+[10:30:13 INF] Hosting environment: Development
+[10:30:13 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:30:14 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:30:14 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:30:14 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:30:15 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:30:15 INF] Executing ViewResult, running view Login.
+[10:30:15 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:30:15 INF] Executed ViewResult - view Login executed in 96.82ms.
+[10:30:15 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 760.1471ms
+[10:30:15 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:30:15 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 800.2982ms
+[10:30:28 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:30:28 INF] Now listening on: http://localhost:5214
+[10:30:28 INF] Application started. Press Ctrl+C to shut down.
+[10:30:28 INF] Hosting environment: Development
+[10:30:28 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:30:29 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:30:29 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:30:29 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:30:30 INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:30:30 INF] Executing ViewResult, running view Login.
+[10:30:30 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:30:30 INF] Executed ViewResult - view Login executed in 97.096ms.
+[10:30:30 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 749.07ms
+[10:30:30 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:30:30 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 787.2477ms
+[10:31:10 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:31:10 INF] Now listening on: http://localhost:5214
+[10:31:10 INF] Application started. Press Ctrl+C to shut down.
+[10:31:10 INF] Hosting environment: Development
+[10:31:10 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:31:11 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:31:11 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:31:11 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:31:12 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:31:12 INF] Executing ViewResult, running view Login.
+[10:31:12 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:31:12 INF] Executed ViewResult - view Login executed in 100.9595ms.
+[10:31:12 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 763.4437ms
+[10:31:12 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:31:12 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 801.3388ms
+[10:31:23 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:31:23 INF] Now listening on: http://localhost:5214
+[10:31:23 INF] Application started. Press Ctrl+C to shut down.
+[10:31:23 INF] Hosting environment: Development
+[10:31:23 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:31:24 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:31:24 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:31:24 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:31:24 INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:31:24 INF] Executing ViewResult, running view Login.
+[10:31:24 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:31:24 INF] Executed ViewResult - view Login executed in 99.698ms.
+[10:31:24 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 771.4633ms
+[10:31:24 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:31:24 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 809.7402ms
+[10:31:37 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:31:37 INF] Now listening on: http://localhost:5214
+[10:31:37 INF] Application started. Press Ctrl+C to shut down.
+[10:31:37 INF] Hosting environment: Development
+[10:31:37 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:31:39 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:31:39 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:31:39 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:31:39 INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:31:39 INF] Executing ViewResult, running view Login.
+[10:31:39 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:31:39 INF] Executed ViewResult - view Login executed in 95.3341ms.
+[10:31:39 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 728.3997ms
+[10:31:39 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:31:39 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 767.7132ms
+[10:32:54 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:32:54 INF] Now listening on: http://localhost:5214
+[10:32:54 INF] Application started. Press Ctrl+C to shut down.
+[10:32:54 INF] Hosting environment: Development
+[10:32:54 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:32:55 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:32:55 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:32:55 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:32:56 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:32:56 INF] Executing ViewResult, running view Login.
+[10:32:56 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:32:56 INF] Executed ViewResult - view Login executed in 101.0785ms.
+[10:32:56 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 769.8878ms
+[10:32:56 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:32:56 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 809.2704ms
+[10:32:56 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - -
+[10:32:56 INF] The file /WebTaskManagerApp.styles.css was not modified
+[10:32:56 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - - - 304 - text/css 4.5097ms
+[10:34:05 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:34:05 INF] Now listening on: http://localhost:5214
+[10:34:05 INF] Application started. Press Ctrl+C to shut down.
+[10:34:05 INF] Hosting environment: Development
+[10:34:05 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:34:06 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:34:06 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:34:06 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:34:07 INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:34:07 INF] Executing ViewResult, running view Login.
+[10:34:07 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:34:07 INF] Executed ViewResult - view Login executed in 96.2827ms.
+[10:34:07 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 757.1287ms
+[10:34:07 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:34:07 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 795.5465ms
+[10:35:54 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Registration - -
+[10:35:54 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp)'
+[10:35:54 INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registration() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:35:54 INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:35:54 INF] Executing ViewResult, running view Registration.
+[10:35:54 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:35:54 INF] Executed ViewResult - view Registration executed in 30.6214ms.
+[10:35:54 INF] Executed action WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp) in 46.86ms
+[10:35:54 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp)'
+[10:35:54 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Registration - - - 200 - text/html;+charset=utf-8 58.0755ms
+[10:35:59 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:35:59 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:35:59 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:35:59 INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:35:59 INF] Executing ViewResult, running view Login.
+[10:35:59 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:35:59 INF] Executed ViewResult - view Login executed in 3.2535ms.
+[10:35:59 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 62.673ms
+[10:35:59 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:35:59 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 68.5004ms
+[10:36:56 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:36:56 INF] Now listening on: http://localhost:5214
+[10:36:56 INF] Application started. Press Ctrl+C to shut down.
+[10:36:56 INF] Hosting environment: Development
+[10:36:56 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:36:57 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:36:57 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:36:57 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:36:58 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:36:58 INF] Executing ViewResult, running view Login.
+[10:36:58 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:36:58 INF] Executed ViewResult - view Login executed in 108.4901ms.
+[10:36:58 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 777.6103ms
+[10:36:58 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:36:58 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 816.2295ms
+[10:38:03 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:38:03 INF] Now listening on: http://localhost:5214
+[10:38:03 INF] Application started. Press Ctrl+C to shut down.
+[10:38:03 INF] Hosting environment: Development
+[10:38:03 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:38:04 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:38:04 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:38:04 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:38:05 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:38:05 INF] Executing ViewResult, running view Login.
+[10:38:05 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:38:05 INF] Executed ViewResult - view Login executed in 96.0525ms.
+[10:38:05 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 725.5756ms
+[10:38:05 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:38:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 764.5103ms
+[10:38:05 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - -
+[10:38:05 INF] The file /WebTaskManagerApp.styles.css was not modified
+[10:38:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - - - 304 - text/css 4.3814ms
+[10:38:42 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:38:43 INF] Now listening on: http://localhost:5214
+[10:38:43 INF] Application started. Press Ctrl+C to shut down.
+[10:38:43 INF] Hosting environment: Development
+[10:38:43 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:38:44 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:38:44 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:38:44 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:38:44 INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:38:44 INF] Executing ViewResult, running view Login.
+[10:38:44 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:38:44 INF] Executed ViewResult - view Login executed in 98.227ms.
+[10:38:44 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 755.8102ms
+[10:38:44 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:38:44 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 792.7865ms
+[10:39:20 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:39:20 INF] Now listening on: http://localhost:5214
+[10:39:20 INF] Application started. Press Ctrl+C to shut down.
+[10:39:20 INF] Hosting environment: Development
+[10:39:20 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:39:21 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:39:21 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:39:21 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:39:22 INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:39:22 INF] Executing ViewResult, running view Login.
+[10:39:22 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:39:22 INF] Executed ViewResult - view Login executed in 94.0168ms.
+[10:39:22 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 752.8945ms
+[10:39:22 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:39:22 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 791.4384ms
+[10:47:24 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[10:47:24 INF] Now listening on: http://localhost:5214
+[10:47:24 INF] Application started. Press Ctrl+C to shut down.
+[10:47:24 INF] Hosting environment: Development
+[10:47:24 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[10:47:25 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:47:25 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:47:25 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:47:26 INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:47:26 INF] Executing ViewResult, running view Login.
+[10:47:26 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:47:26 INF] Executed ViewResult - view Login executed in 104.3593ms.
+[10:47:26 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 773.062ms
+[10:47:26 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:47:26 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 810.6787ms
+[10:47:26 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - -
+[10:47:26 INF] The file /WebTaskManagerApp.styles.css was not modified
+[10:47:26 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - - - 304 - text/css 3.9130ms
+[10:47:39 INF] Request starting HTTP/1.1 POST http://localhost:5214/ application/x-www-form-urlencoded 235
+[10:47:39 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:47:39 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WebTaskManagerApp.Models.User) on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:47:39 INF] &&& Login() starded with params id:0, name:, email: , password: 123
+[10:47:39 INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Email], [u].[Name], [u].[Password], [u].[RoleId]
+FROM [Users] AS [u]
+WHERE 0 = 1
+[10:47:39 WRN] &&& Failed login for email [name ] with pass 123
+[10:47:39 INF] Executing RedirectResult, redirecting to /User/Registration.
+[10:47:39 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 105.7895ms
+[10:47:39 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:47:39 INF] Request finished HTTP/1.1 POST http://localhost:5214/ application/x-www-form-urlencoded 235 - 302 0 - 124.5544ms
+[10:47:39 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Registration - -
+[10:47:39 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp)'
+[10:47:39 INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registration() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:47:39 INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:47:39 INF] Executing ViewResult, running view Registration.
+[10:47:39 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:47:39 INF] Executed ViewResult - view Registration executed in 27.3173ms.
+[10:47:39 INF] Executed action WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp) in 58.503ms
+[10:47:39 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp)'
+[10:47:39 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Registration - - - 200 - text/html;+charset=utf-8 60.6484ms
+[10:48:45 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:48:45 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:48:45 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:48:45 INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:48:45 INF] Executing ViewResult, running view Login.
+[10:48:45 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:48:45 INF] Executed ViewResult - view Login executed in 3.8371ms.
+[10:48:45 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 11.86ms
+[10:48:45 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:48:45 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 16.7744ms
+[10:49:00 INF] Request starting HTTP/1.1 POST http://localhost:5214/ application/x-www-form-urlencoded 213
+[10:49:00 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:49:00 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WebTaskManagerApp.Models.User) on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:49:00 INF] &&& Login() starded with params id:0, name:, email: , password: 123
+[10:49:00 INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Email], [u].[Name], [u].[Password], [u].[RoleId]
+FROM [Users] AS [u]
+WHERE 0 = 1
+[10:49:00 WRN] &&& Failed login for email [name ] with pass 123
+[10:49:00 INF] Executing RedirectResult, redirecting to /User/Registration.
+[10:49:00 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 16.3492ms
+[10:49:00 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:49:00 INF] Request finished HTTP/1.1 POST http://localhost:5214/ application/x-www-form-urlencoded 213 - 302 0 - 18.2087ms
+[10:49:00 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Registration - -
+[10:49:00 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp)'
+[10:49:00 INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registration() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:49:00 INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:49:00 INF] Executing ViewResult, running view Registration.
+[10:49:00 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:49:00 INF] Executed ViewResult - view Registration executed in 3.7389ms.
+[10:49:00 INF] Executed action WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp) in 8.6408ms
+[10:49:00 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp)'
+[10:49:00 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Registration - - - 200 - text/html;+charset=utf-8 10.6463ms
+[10:49:01 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[10:49:01 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:49:01 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[10:49:01 INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[10:49:01 INF] Executing ViewResult, running view Login.
+[10:49:01 INF] Accessing expired session, Key:32dcf9a2-c34c-48be-1ab4-1c83f2c79193
+[10:49:01 INF] Executed ViewResult - view Login executed in 4.6613ms.
+[10:49:01 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 17.6806ms
+[10:49:01 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[10:49:01 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 20.9181ms
