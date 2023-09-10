@@ -1,0 +1,614 @@
+[13:11:56 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:11:57 INF] Now listening on: http://localhost:5214
+[13:11:57 INF] Application started. Press Ctrl+C to shut down.
+[13:11:57 INF] Hosting environment: Development
+[13:11:57 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:11:58 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:11:58 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:11:58 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:12:01 INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:12:01 INF] Executing ViewResult, running view Login.
+[13:12:02 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:12:02 INF] Executed ViewResult - view Login executed in 556.6848ms.
+[13:12:02 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 3706.1245ms
+[13:12:02 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:12:05 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/css/bootstrap.min.css - -
+[13:12:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 7266.8245ms
+[13:12:05 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=HU_tvr7rBZ7Q70pJRdKKd66yOpt9ThvmqzlFSPFqzdM - -
+[13:12:05 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=0c4oVC_4tyN-iOXacSn6QThghf_OivjU0VeEfcSdYvg - -
+[13:12:05 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:12:05 INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\css\site.css'
+[13:12:05 INF] Sending file. Request path: '/WebTaskManagerApp.styles.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\obj\Debug\net7.0\scopedcss\bundle\WebTaskManagerApp.styles.css'
+[13:12:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=0c4oVC_4tyN-iOXacSn6QThghf_OivjU0VeEfcSdYvg - - - 200 1134 text/css 1.4954ms
+[13:12:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=HU_tvr7rBZ7Q70pJRdKKd66yOpt9ThvmqzlFSPFqzdM - - - 200 453 text/css 14.5761ms
+[13:12:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 1.8660ms
+[13:12:05 INF] Request starting HTTP/1.1 GET http://localhost:5214/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+[13:12:05 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+[13:12:05 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery/dist/jquery.min.js - -
+[13:12:05 INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\js\site.js'
+[13:12:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 2.1949ms
+[13:12:05 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery-validation/dist/jquery.validate.min.js - -
+[13:12:05 INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+[13:12:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 91.9180ms
+[13:12:05 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+[13:12:05 INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+[13:12:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 200 5824 text/javascript 140.4202ms
+[13:12:05 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:12:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 6.5383ms
+[13:12:05 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:12:05 INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+[13:12:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 text/javascript 171.0702ms
+[13:12:05 INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\jquery\dist\jquery.min.js'
+[13:12:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery/dist/jquery.min.js - - - 200 89501 text/javascript 240.2191ms
+[13:12:05 INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+[13:12:05 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery-validation/dist/jquery.validate.min.js - - - 200 23261 text/javascript 239.0438ms
+[13:12:06 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 151.2115ms
+[13:12:07 INF] Request starting HTTP/1.1 GET http://localhost:5214/favicon.ico - -
+[13:12:07 INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\favicon.ico'
+[13:12:07 INF] Request finished HTTP/1.1 GET http://localhost:5214/favicon.ico - - - 200 4286 image/x-icon 19.5238ms
+[13:12:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:12:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+[13:12:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.3603ms
+[13:12:16 INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\js\site.js'
+[13:12:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+[13:12:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 0.7561ms
+[13:12:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+[13:12:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery/dist/jquery.min.js - -
+[13:12:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:12:16 INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+[13:12:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 text/javascript 15.7625ms
+[13:12:16 INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\jquery\dist\jquery.min.js'
+[13:12:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery-validation/dist/jquery.validate.min.js - -
+[13:12:16 INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+[13:12:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 200 5824 text/javascript 16.3146ms
+[13:12:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery/dist/jquery.min.js - - - 200 89501 text/javascript 15.9432ms
+[13:12:16 INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+[13:12:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery-validation/dist/jquery.validate.min.js - - - 200 23261 text/javascript 0.6926ms
+[13:12:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.4222ms
+[13:12:34 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:12:34 INF] Now listening on: http://localhost:5214
+[13:12:34 INF] Application started. Press Ctrl+C to shut down.
+[13:12:34 INF] Hosting environment: Development
+[13:12:34 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:12:34 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:12:34 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:12:34 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:12:35 INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:12:36 INF] Executing ViewResult, running view Login.
+[13:12:36 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:12:36 INF] Executed ViewResult - view Login executed in 203.552ms.
+[13:12:36 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1487.3975ms
+[13:12:36 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:12:36 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:12:36 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 3.8621ms
+[13:12:36 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:12:36 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 1687.2989ms
+[13:12:36 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 2.5109ms
+[13:12:36 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:12:36 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.8470ms
+[13:12:44 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:12:44 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 1.0543ms
+[13:12:44 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:12:44 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.0524ms
+[13:12:50 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:12:51 INF] Now listening on: http://localhost:5214
+[13:12:51 INF] Application started. Press Ctrl+C to shut down.
+[13:12:51 INF] Hosting environment: Development
+[13:12:51 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:12:51 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:12:51 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:12:51 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:12:52 INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:12:52 INF] Executing ViewResult, running view Login.
+[13:12:52 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:12:52 INF] Executed ViewResult - view Login executed in 338.1709ms.
+[13:12:52 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1611.0585ms
+[13:12:52 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:12:53 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:12:53 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 3.4492ms
+[13:12:53 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 1781.0451ms
+[13:12:53 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:12:53 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:12:53 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 1.9094ms
+[13:12:53 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.2550ms
+[13:12:53 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:12:53 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.5608ms
+[13:12:53 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:12:53 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.8134ms
+[13:13:11 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:13:11 INF] Now listening on: http://localhost:5214
+[13:13:11 INF] Application started. Press Ctrl+C to shut down.
+[13:13:11 INF] Hosting environment: Development
+[13:13:11 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:13:11 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:13:11 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:13:11 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:13:13 INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:13:13 INF] Executing ViewResult, running view Login.
+[13:13:13 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:13:13 INF] Executed ViewResult - view Login executed in 472.8571ms.
+[13:13:13 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 2059.8587ms
+[13:13:13 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:13:13 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 2256.0338ms
+[13:13:13 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:13:13 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 3.7927ms
+[13:13:14 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:13:14 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 1.9812ms
+[13:13:14 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:13:14 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:13:14 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 1.1688ms
+[13:13:14 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.4430ms
+[13:13:36 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:13:36 INF] Now listening on: http://localhost:5214
+[13:13:36 INF] Application started. Press Ctrl+C to shut down.
+[13:13:36 INF] Hosting environment: Development
+[13:13:36 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:13:37 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:13:37 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:13:37 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:13:38 INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:13:38 INF] Executing ViewResult, running view Login.
+[13:13:38 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:13:38 INF] Executed ViewResult - view Login executed in 224.6296ms.
+[13:13:38 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1551.5048ms
+[13:13:38 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:13:38 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:13:38 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:13:38 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 1698.4585ms
+[13:13:38 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 3.6357ms
+[13:13:38 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:13:38 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 2.9703ms
+[13:13:38 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.2262ms
+[13:15:04 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:15:04 INF] Now listening on: http://localhost:5214
+[13:15:04 INF] Application started. Press Ctrl+C to shut down.
+[13:15:04 INF] Hosting environment: Development
+[13:15:04 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:15:04 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:15:04 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:15:04 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:15:05 INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:15:06 INF] Executing ViewResult, running view Login.
+[13:15:06 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:15:06 INF] Executed ViewResult - view Login executed in 346.8314ms.
+[13:15:06 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1670.6976ms
+[13:15:06 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:15:06 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 1796.6928ms
+[13:15:06 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:15:06 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 26.5982ms
+[13:15:06 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:15:06 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:15:06 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 2.4201ms
+[13:15:06 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.3375ms
+[13:16:01 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:16:01 INF] Now listening on: http://localhost:5214
+[13:16:01 INF] Application started. Press Ctrl+C to shut down.
+[13:16:01 INF] Hosting environment: Development
+[13:16:01 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:16:02 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:16:02 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:16:02 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:16:03 INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:16:03 INF] Executing ViewResult, running view Login.
+[13:16:03 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:16:04 INF] Executed ViewResult - view Login executed in 218.0819ms.
+[13:16:04 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1568.644ms
+[13:16:04 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:16:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 1794.4737ms
+[13:16:04 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:16:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 2.8852ms
+[13:16:04 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:16:04 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:16:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 4.2979ms
+[13:16:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.2582ms
+[13:16:24 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:16:24 INF] Now listening on: http://localhost:5214
+[13:16:24 INF] Application started. Press Ctrl+C to shut down.
+[13:16:24 INF] Hosting environment: Development
+[13:16:24 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:16:25 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:16:25 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:16:25 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:16:26 INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:16:26 INF] Executing ViewResult, running view Login.
+[13:16:26 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:16:26 INF] Executed ViewResult - view Login executed in 203.0252ms.
+[13:16:26 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1446.1919ms
+[13:16:26 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:16:26 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:16:26 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 7.4256ms
+[13:16:26 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 1585.2650ms
+[13:16:26 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:16:26 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:16:26 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 6.7500ms
+[13:16:26 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.8421ms
+[13:17:53 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:17:53 INF] Now listening on: http://localhost:5214
+[13:17:54 INF] Application started. Press Ctrl+C to shut down.
+[13:17:54 INF] Hosting environment: Development
+[13:17:54 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:17:54 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:17:54 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:17:54 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:17:55 INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:17:55 INF] Executing ViewResult, running view Login.
+[13:17:55 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:17:55 INF] Executed ViewResult - view Login executed in 221.1289ms.
+[13:17:55 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1480.2934ms
+[13:17:55 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:17:55 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:17:55 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 5.6723ms
+[13:17:55 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 1602.4522ms
+[13:17:55 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:17:55 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:17:55 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 2.0903ms
+[13:17:56 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.9227ms
+[13:18:11 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:18:11 INF] Now listening on: http://localhost:5214
+[13:18:11 INF] Application started. Press Ctrl+C to shut down.
+[13:18:11 INF] Hosting environment: Development
+[13:18:11 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:18:12 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:18:12 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:18:12 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:18:13 INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:18:13 INF] Executing ViewResult, running view Login.
+[13:18:13 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:18:13 INF] Executed ViewResult - view Login executed in 215.2947ms.
+[13:18:13 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1495.1628ms
+[13:18:13 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:18:13 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 1608.6344ms
+[13:18:13 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:18:13 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:18:13 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 5.6664ms
+[13:18:13 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 4.0761ms
+[13:18:13 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:18:14 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.9215ms
+[13:18:31 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:18:31 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 9.9988ms
+[13:18:31 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+[13:18:31 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/css/bootstrap.min.css.map - -
+[13:18:31 INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+[13:18:31 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 49.5705ms
+[13:18:31 INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+[13:18:31 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 449111 text/plain 74.9107ms
+[13:19:35 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:19:35 INF] Now listening on: http://localhost:5214
+[13:19:35 INF] Application started. Press Ctrl+C to shut down.
+[13:19:35 INF] Hosting environment: Development
+[13:19:35 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:19:35 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:19:36 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:19:36 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:19:37 INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:19:37 INF] Executing ViewResult, running view Login.
+[13:19:37 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:19:37 INF] Executed ViewResult - view Login executed in 252.2497ms.
+[13:19:37 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1754.9476ms
+[13:19:37 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:19:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 1931.8053ms
+[13:19:37 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:19:37 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:19:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 2.5472ms
+[13:19:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 2.5139ms
+[13:19:37 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:19:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.6056ms
+[13:19:52 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:19:52 INF] Now listening on: http://localhost:5214
+[13:19:52 INF] Application started. Press Ctrl+C to shut down.
+[13:19:52 INF] Hosting environment: Development
+[13:19:52 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:19:52 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:19:52 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:19:52 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:19:54 INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:19:54 INF] Executing ViewResult, running view Login.
+[13:19:54 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:19:54 INF] Executed ViewResult - view Login executed in 265.8344ms.
+[13:19:54 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1973.7016ms
+[13:19:54 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:19:54 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 2121.6941ms
+[13:19:54 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:19:54 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 2.9180ms
+[13:19:54 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:19:54 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 10.3346ms
+[13:19:54 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:19:54 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.9742ms
+[13:20:21 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:20:21 INF] Now listening on: http://localhost:5214
+[13:20:21 INF] Application started. Press Ctrl+C to shut down.
+[13:20:21 INF] Hosting environment: Development
+[13:20:21 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:20:22 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:20:22 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:20:22 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:20:23 INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:20:23 INF] Executing ViewResult, running view Login.
+[13:20:23 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:20:23 INF] Executed ViewResult - view Login executed in 256.0854ms.
+[13:20:23 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1860.7559ms
+[13:20:23 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:20:24 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:20:24 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 2.7990ms
+[13:20:24 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 1999.8167ms
+[13:20:24 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:20:24 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 2.9900ms
+[13:20:24 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:20:24 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.0889ms
+[13:20:34 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:20:35 INF] Now listening on: http://localhost:5214
+[13:20:35 INF] Application started. Press Ctrl+C to shut down.
+[13:20:35 INF] Hosting environment: Development
+[13:20:35 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:20:35 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:20:35 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:20:35 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:20:36 INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:20:37 INF] Executing ViewResult, running view Login.
+[13:20:37 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:20:37 INF] Executed ViewResult - view Login executed in 262.3106ms.
+[13:20:37 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1900.823ms
+[13:20:37 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:20:37 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:20:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 3.2257ms
+[13:20:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 2077.5409ms
+[13:20:37 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:20:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 13.8304ms
+[13:20:37 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:20:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.5274ms
+[13:22:24 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:22:24 INF] Now listening on: http://localhost:5214
+[13:22:24 INF] Application started. Press Ctrl+C to shut down.
+[13:22:24 INF] Hosting environment: Development
+[13:22:24 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:22:25 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:22:25 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:22:25 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:22:26 INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:22:27 INF] Executing ViewResult, running view Login.
+[13:22:27 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:22:27 INF] Executed ViewResult - view Login executed in 284.2646ms.
+[13:22:27 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 2102.9771ms
+[13:22:27 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:22:27 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:22:27 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 3.5276ms
+[13:22:27 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 2354.4341ms
+[13:22:27 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:22:27 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:22:27 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 4.8564ms
+[13:22:27 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.2792ms
+[13:23:01 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:23:01 INF] Now listening on: http://localhost:5214
+[13:23:01 INF] Application started. Press Ctrl+C to shut down.
+[13:23:01 INF] Hosting environment: Development
+[13:23:01 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:23:01 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:23:01 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:23:01 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:23:03 INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:23:03 INF] Executing ViewResult, running view Login.
+[13:23:03 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:23:04 INF] Executed ViewResult - view Login executed in 662.3609ms.
+[13:23:04 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 2397.6502ms
+[13:23:04 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:23:04 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:23:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 4.1026ms
+[13:23:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 2634.7155ms
+[13:23:04 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:23:04 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:23:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 2.3746ms
+[13:23:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.1257ms
+[13:23:30 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:23:30 INF] Now listening on: http://localhost:5214
+[13:23:30 INF] Application started. Press Ctrl+C to shut down.
+[13:23:30 INF] Hosting environment: Development
+[13:23:30 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:23:30 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:23:30 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:23:30 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:23:31 INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:23:31 INF] Executing ViewResult, running view Login.
+[13:23:31 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:23:31 INF] Executed ViewResult - view Login executed in 208.6494ms.
+[13:23:31 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1433.9989ms
+[13:23:31 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:23:31 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 1567.2890ms
+[13:23:31 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:23:32 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 2.1457ms
+[13:23:32 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:23:32 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 3.5542ms
+[13:23:32 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:23:32 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.8263ms
+[13:23:41 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:23:41 INF] Now listening on: http://localhost:5214
+[13:23:41 INF] Application started. Press Ctrl+C to shut down.
+[13:23:41 INF] Hosting environment: Development
+[13:23:41 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:23:41 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:23:41 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:23:41 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:23:42 INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:23:43 INF] Executing ViewResult, running view Login.
+[13:23:43 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:23:43 INF] Executed ViewResult - view Login executed in 449.4292ms.
+[13:23:43 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1854.3799ms
+[13:23:43 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:23:43 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:23:43 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 4.5936ms
+[13:23:43 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 2002.2988ms
+[13:23:43 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:23:43 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:23:43 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 3.4020ms
+[13:23:43 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.3746ms
+[13:24:21 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=HU_tvr7rBZ7Q70pJRdKKd66yOpt9ThvmqzlFSPFqzdM&__browserLink_refresh=72b00df6bfed456da9d2e18721b3c39a - -
+[13:24:21 INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\css\site.css'
+[13:24:21 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=HU_tvr7rBZ7Q70pJRdKKd66yOpt9ThvmqzlFSPFqzdM&__browserLink_refresh=72b00df6bfed456da9d2e18721b3c39a - - - 200 493 text/css 51.0716ms
+[13:24:31 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=HU_tvr7rBZ7Q70pJRdKKd66yOpt9ThvmqzlFSPFqzdM&__browserLink_refresh=7033cf7987304fdbac2464007e02930e - -
+[13:24:31 INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\css\site.css'
+[13:24:31 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=HU_tvr7rBZ7Q70pJRdKKd66yOpt9ThvmqzlFSPFqzdM&__browserLink_refresh=7033cf7987304fdbac2464007e02930e - - - 200 497 text/css 11.5956ms
+[13:24:37 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:24:37 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:24:37 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:24:37 INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:24:37 INF] Executing ViewResult, running view Login.
+[13:24:37 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:24:37 INF] Executed ViewResult - view Login executed in 10.7024ms.
+[13:24:37 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 33.448ms
+[13:24:37 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:24:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 38.9787ms
+[13:24:37 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=YM4IVewtN5nd0gtibirxu9lJUMYpiHsAWpP73MLvT44 - -
+[13:24:37 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:24:37 INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\css\site.css'
+[13:24:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=YM4IVewtN5nd0gtibirxu9lJUMYpiHsAWpP73MLvT44 - - - 200 497 text/css 0.8430ms
+[13:24:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 1.3703ms
+[13:24:38 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:24:38 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.2277ms
+[13:24:38 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:24:38 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.2443ms
+[13:24:49 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=YM4IVewtN5nd0gtibirxu9lJUMYpiHsAWpP73MLvT44&__browserLink_refresh=c897dcb738104ce5a27123123c0ea533 - -
+[13:24:49 INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\css\site.css'
+[13:24:49 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=YM4IVewtN5nd0gtibirxu9lJUMYpiHsAWpP73MLvT44&__browserLink_refresh=c897dcb738104ce5a27123123c0ea533 - - - 200 364 text/css 27.9184ms
+[13:24:51 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:24:51 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:24:51 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:24:51 INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:24:51 INF] Executing ViewResult, running view Login.
+[13:24:51 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:24:51 INF] Executed ViewResult - view Login executed in 25.6932ms.
+[13:24:51 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 177.6522ms
+[13:24:51 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:24:51 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 185.9485ms
+[13:24:51 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=jYPeFWuxw36muy2vzBxWkmpu1VGDWekaBoVPowIJStc - -
+[13:24:51 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:24:51 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.5042ms
+[13:24:51 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:24:51 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 1.5653ms
+[13:24:51 INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\css\site.css'
+[13:24:51 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=jYPeFWuxw36muy2vzBxWkmpu1VGDWekaBoVPowIJStc - - - 200 364 text/css 7.7790ms
+[13:24:51 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:24:51 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.8921ms
+[13:24:57 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=jYPeFWuxw36muy2vzBxWkmpu1VGDWekaBoVPowIJStc&__browserLink_refresh=f232e54b54a44ad2b30012b6300947f7 - -
+[13:24:57 INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\css\site.css'
+[13:24:57 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=jYPeFWuxw36muy2vzBxWkmpu1VGDWekaBoVPowIJStc&__browserLink_refresh=f232e54b54a44ad2b30012b6300947f7 - - - 200 362 text/css 20.6313ms
+[13:24:59 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:24:59 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:24:59 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:24:59 INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:24:59 INF] Executing ViewResult, running view Login.
+[13:24:59 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:24:59 INF] Executed ViewResult - view Login executed in 116.4231ms.
+[13:24:59 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 135.6117ms
+[13:24:59 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:24:59 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 221.6654ms
+[13:24:59 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+[13:24:59 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:24:59 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.1297ms
+[13:24:59 INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\css\site.css'
+[13:24:59 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 200 362 text/css 2.0216ms
+[13:24:59 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:24:59 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 0.3274ms
+[13:24:59 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:24:59 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.3429ms
+[13:25:19 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Registration - -
+[13:25:19 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp)'
+[13:25:19 INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registration() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:25:19 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:25:19 INF] Executing ViewResult, running view Registration.
+[13:25:19 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:25:19 INF] Executed ViewResult - view Registration executed in 64.3602ms.
+[13:25:19 INF] Executed action WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp) in 67.7713ms
+[13:25:19 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Registration (WebTaskManagerApp)'
+[13:25:19 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Registration - - - 200 - text/html;+charset=utf-8 78.7183ms
+[13:25:19 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:25:19 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+[13:25:19 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.1610ms
+[13:25:19 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:25:19 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 1.0440ms
+[13:25:19 INF] The file /css/site.css was not modified
+[13:25:19 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 304 - text/css 4.0634ms
+[13:25:19 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:25:19 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.2513ms
+[13:25:22 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:25:22 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:25:22 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:25:22 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:25:22 INF] Executing ViewResult, running view Login.
+[13:25:22 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:25:22 INF] Executed ViewResult - view Login executed in 4.2925ms.
+[13:25:22 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 9.2643ms
+[13:25:22 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:25:22 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 17.0750ms
+[13:25:22 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:25:22 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.4396ms
+[13:26:02 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:26:02 INF] Now listening on: http://localhost:5214
+[13:26:02 INF] Application started. Press Ctrl+C to shut down.
+[13:26:02 INF] Hosting environment: Development
+[13:26:02 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[13:26:02 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[13:26:02 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:26:02 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[13:26:04 INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[13:26:04 INF] Executing ViewResult, running view Login.
+[13:26:04 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[13:26:04 INF] Executed ViewResult - view Login executed in 222.8073ms.
+[13:26:04 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 1527.9386ms
+[13:26:04 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[13:26:04 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+[13:26:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 1657.0140ms
+[13:26:04 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/Login.scss - -
+[13:26:04 INF] The file /css/site.css was not modified
+[13:26:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/Login.scss - - - 404 0 - 4.4244ms
+[13:26:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 304 - text/css 17.4982ms
+[13:26:04 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[13:26:04 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[13:26:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 3.1552ms
+[13:26:04 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.4963ms
