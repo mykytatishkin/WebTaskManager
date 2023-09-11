@@ -1,379 +1,383 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebTaskManagerApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebTaskManagerApp.bundle.scp.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/obj/Debug/net7.0/scopedcss/projectbundle/WebTaskManagerApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/WebTaskManagerApp.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\.DS_Store",
-      "PackagePath": "staticwebassets\\.DS_Store"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\.DS_Store",
-      "PackagePath": "staticwebassets\\images\\.DS_Store"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\Contents.json",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\Contents.json"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/Contents.json",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/Contents.json"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\appstore1024.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\appstore1024.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/appstore1024.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/appstore1024.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\ipad152.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\ipad152.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipad152.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipad152.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\ipad76.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\ipad76.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipad76.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipad76.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\ipadNotification20.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\ipadNotification20.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadNotification20.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadNotification20.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\ipadNotification40.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\ipadNotification40.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadNotification40.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadNotification40.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\ipadPro167.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\ipadPro167.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadPro167.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadPro167.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\ipadSettings29.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\ipadSettings29.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadSettings29.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadSettings29.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\ipadSettings58.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\ipadSettings58.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadSettings58.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadSettings58.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\ipadSpotlight40.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\ipadSpotlight40.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadSpotlight40.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadSpotlight40.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\ipadSpotlight80.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\ipadSpotlight80.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/ipadSpotlight80.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/ipadSpotlight80.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\iphone120.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\iphone120.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/iphone120.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/iphone120.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\iphone180.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\iphone180.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/iphone180.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/iphone180.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\mac1024.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\mac1024.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac1024.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac1024.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\mac128.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\mac128.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac128.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac128.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\mac16.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\mac16.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac16.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac16.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\mac256.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\mac256.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac256.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac256.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\mac32.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\mac32.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac32.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac32.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\mac512.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\mac512.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac512.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac512.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\mac64.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\mac64.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/mac64.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/mac64.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\notification40.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\notification40.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/notification40.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/notification40.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\notification60.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\notification60.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/notification60.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/notification60.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\settings58.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\settings58.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/settings58.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/settings58.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\settings87.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\settings87.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/settings87.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/settings87.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\spotlight120.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\spotlight120.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/spotlight120.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/spotlight120.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\images\\AppIcon.appiconset\\spotlight80.png",
-      "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\spotlight80.png"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/images/AppIcon.appiconset/spotlight80.png",
+      "PackagePath": "staticwebassets/images/AppIcon.appiconset/spotlight80.png"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\js\\background.js",
-      "PackagePath": "staticwebassets\\js\\background.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/js/background.js",
+      "PackagePath": "staticwebassets/js/background.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/js/loginValidation.js",
+      "PackagePath": "staticwebassets/js/loginValidation.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebTaskManagerApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.WebTaskManagerApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebTaskManagerApp.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.WebTaskManagerApp.props",
       "PackagePath": "build\\WebTaskManagerApp.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebTaskManagerApp.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.WebTaskManagerApp.props",
       "PackagePath": "buildMultiTargeting\\WebTaskManagerApp.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebTaskManagerApp.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.WebTaskManagerApp.props",
       "PackagePath": "buildTransitive\\WebTaskManagerApp.props"
     }
   ],

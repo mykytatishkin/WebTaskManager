@@ -6,25 +6,26 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.WebTaskManagerApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebTaskManagerApp/Controllers/UserController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebTaskManagerApp/Views/User/Login.cshtml">
     <Files>
-      <File FileName="WebTaskManagerApp/Views/User/Login.cshtml" Line="51" Column="19" />
-      <File FileName="WebTaskManagerApp/Views/User/Registration.cshtml" />
-      <File FileName="WebTaskManagerApp/Controllers/UserController.cs" Line="1" Column="1" />
-      <File FileName="WebTaskManagerApp/2023/09-07/WebLog.txt" />
+      <File FileName="WebTaskManagerApp/Views/User/Login.cshtml" Line="17" Column="50" />
+      <File FileName="WebTaskManagerApp/Views/User/Registration.cshtml" Line="64" Column="43" />
+      <File FileName="WebTaskManagerApp/Views/Shared/_Layout.cshtml" Line="11" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WebTaskManagerApp" expanded="True">
+          <Node name="WebTaskManagerApp">
             <Node name="WebTaskManagerApp">
-              <Node name="Controllers" expanded="True">
-                <Node name="UserController.cs" selected="True" />
+              <Node name="2023" expanded="True">
+                <Node name="09-08" expanded="True" />
               </Node>
-              <Node name="Views" expanded="True">
-                <Node name="User" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views">
+                <Node name="User">
+                  <Node name="Login.cshtml" selected="True" />
+                </Node>
               </Node>
-              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>

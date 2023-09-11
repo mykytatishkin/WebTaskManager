@@ -14,15 +14,15 @@
     <div class="row justify-content-center align-items-center">
         <div class="col-md-4 row justify-content-center align-items-center">
             <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="buttоn" class="btn btn-light" name="UsernameButton">Username</button>
-                <button type="button" class="btn btn-light" name="EmailButton">Email</button>
+                <button type="button" class="btn btn-light" id="UsernameButton" onclick="usernameLoginAccess();">Username</button>
+                <button type="button" class="btn btn-light" id="EmailButton"  onclick="emailLoginAccess();">Email</button>
             </div>
-            <form asp-action="Login">
+            <form id="LoginForm" asp-action="Login">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
-                    <label name="LoginLаbel" asp-for="Name" class="control-label"></label>
-                    <input name="LoginInput" asp-for="Name" class="form-control" />
-                    <span  name="LoginSpan" asp-validation-for="Name" class="text-danger"></span>
+                    <label id="LoginLabel" asp-for="Name" class="control-label"></label>
+                    <input id="LoginInput" asp-for="Name" class="form-control" />
+                    <span  id="LoginSpan" asp-validation-for="Name" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Password" class="control-label"></label>
@@ -39,57 +39,9 @@
 </div>
 
 <div class="row justify-content-center align-items-center">
-    Don`t have an account? <a asp-action="Registration" class="row justify-content-center align-items-center">Register it now!</a>
+    Don`t have an account? <a asp-action="Registration"  class="row justify-content-center align-items-center">Register it now!</a>
 </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
-
-<script>
-    const usernameButton = document.querySelector('button[name="UsernameButton"]');
-    const emailButton = document.querySelector('button[name="EmailButton"]');
-
-    const label = doсument.querySelector('label[name="LoginLabel"]');
-    const input = document.querySelector('input[name="LoginInput"]');
-    const span = document.querySelector('span[name="LoginSpan"]');
-
-    usernameButton.addEventListener('click', function () {
-        console.log("usernameButton()")
-
-        label.setAttribute('asp-for', 'Name');
-        input.setАttribute('asp-for', 'Name');
-        span.setAttribute('asp-validation-for', 'Name');
-        form.setAttribute('asp-action', 'Name');
-    });
-
-    emailButton.addEventListener('click', function () {
-        console.log("emailButton()")
-
-        label.setAttribute('asp-for', 'Email');
-        input.setAttribute('asp-for', 'Email');
-        span.setAttribute('asp-validation-for', 'Email');
-        form.setAttribute('asp-action', 'Email');
-    });
-</script>
-
-<style>
-    * {
-        color: white;
-    }
-
-    body {
-        /*background-color: #000000;*/
-        padding: 0px;
-        margin: 0px;
-    }
-
-    #gradient {
-        width: 100%;
-        height: 800px;
-        padding: 0px;
-        margin: 0px;
-    }
-
-
-</style>

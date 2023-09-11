@@ -1,4 +1,6 @@
-﻿var colors = new Array(
+﻿console.log("background.js");
+
+var colors = new Array(
     [52, 120, 246],
     [224, 201, 27],
     [52, 120, 246],
