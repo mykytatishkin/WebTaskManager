@@ -10,19 +10,19 @@ We've carefully chosen our technology stack to ensure a seamless development exp
 
 ### Key Technologies:
 
-- .NET 7+: Our foundation is built on the robust .NET framework, ensuring high-performance and reliability.
+- **.NET 7+:** Our foundation is built on the robust .NET framework, ensuring high-performance and reliability.
 
-- ASP.NET: We leverage ASP.NET for creating powerful and dynamic web interfaces that cater to your task management needs.
+- **ASP.NET:** We leverage ASP.NET for creating powerful and dynamic web interfaces that cater to your task management needs.
 
-- EntityFramework: Our application employs EntityFramework, a state-of-the-art ORM (Object-Relational Mapping) tool, for efficient database interaction.
+- **EntityFramework:** Our application employs EntityFramework, a state-of-the-art ORM (Object-Relational Mapping) tool, for efficient database interaction.
   
-- Serilog: We utilize Serilog for advanced logging capabilities, ensuring comprehensive monitoring and analysis of application activities.
+- **Serilog:** We utilize Serilog for advanced logging capabilities, ensuring comprehensive monitoring and analysis of application activities.
 
-- FluentAPI: We use FluentAPI to streamline database operations, making it easier than ever to manage your tasks and data.
+- **FluentAPI:** We use FluentAPI to streamline database operations, making it easier than ever to manage your tasks and data.
 
-- 🍪 Cookie Files: Enhancing user experience is crucial to us, and that's why we utilize cookie files to provide a personalized and seamless interaction.
+- **🍪 Cookie Files:** Enhancing user experience is crucial to us, and that's why we utilize cookie files to provide a personalized and seamless interaction.
 
-Plus, with our Docker Container integration, macOS users can effortlessly run SQL Server, ensuring cross-platform compatibility without any hassle.
+Plus, with our **Docker Container** integration, macOS users can effortlessly run **SQL Server**, ensuring cross-platform compatibility without any hassle.
 
 Experience a beautifully designed application that simplifies team task management like never before!
 
