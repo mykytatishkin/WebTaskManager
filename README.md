@@ -20,6 +20,10 @@ We've carefully chosen our technology stack to ensure a seamless development exp
 
 - **FluentAPI:** We use FluentAPI to streamline database operations, making it easier than ever to manage your tasks and data.
 
+- **Dependency Injection:** Our architecture embraces Dependency Injection, enhancing modularity and testability while reducing coupling between components.
+
+- **MVC (Model-View-Controller):** We follow the MVC architectural pattern to separate concerns and create a structured, maintainable codebase.
+
 - **🍪 Cookie Files:** Enhancing user experience is crucial to us, and that's why we utilize cookie files to provide a personalized and seamless interaction.
 
 Plus, with our **Docker Container** integration, macOS users can effortlessly run **SQL Server**, ensuring cross-platform compatibility without any hassle.
