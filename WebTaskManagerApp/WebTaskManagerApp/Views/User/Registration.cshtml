@@ -7,8 +7,9 @@
 
 <h1>Registration</h1>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="container">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-4 justify-content-center align-items-center">
         <form asp-action="Registration">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -44,22 +45,23 @@
                     {
                         @foreach (Role item in ViewBag.Roles)
                         {
-                            <option value="@item.Id">@item.RoleName</option>
+                            <option style="color:black" value="@item.Id">@item.RoleName</option>
                         }
                     }
                 </select>
                 <span asp-validation-for="RoleId" class="text-danger"></span>
             </div>
             &nbsp;
-            <div class="form-group">
-                <input type="submit" value="Register" class="btn btn-light" />
-            </div>
+                <div class="form-group row justify-content-center align-items-center">
+                    <input style="width: 50%" type="submit" value="Register" class="btn btn-dark" />
+                </div>
         </form>
     </div>
 </div>
+</div>
 
-<div>
-    Have an account? <a asp-action="Login">Login</a>
+<div class="row justify-content-center align-items-center">
+    Have an account? <a asp-action="Login" class="row justify-content-center align-items-center">Login</a>
 </div>
 
 @section Scripts {
@@ -67,28 +69,22 @@
 }
 
 <style>
-    *, a {
+    * {
         color: white;
     }
 
     body {
-        background-color: #3478f6;
+        /*background-color: #000000;*/
+        padding: 0px;
+        margin: 0px;
     }
 
-
-    <!-- *, a {
-        color: white;
+    #gradient {
+        width: 100%;
+        height: 800px;
+        padding: 0px;
+        margin: 0px;
     }
-
-    body {
-        /*background-color: #3478f6;*/
-        background-color: #d6e4fd;
-        opacity: 1;
-        background-image: radial-gradient(circle at center center, #3478f6, #d6e4fd), repeating-radial-gradient(circle at center center, #3478f6, #3478f6, 40px, transparent 80px, transparent 40px);
-        background-blend-mode: multiply;
-    }
-    -->
-
 
 
 

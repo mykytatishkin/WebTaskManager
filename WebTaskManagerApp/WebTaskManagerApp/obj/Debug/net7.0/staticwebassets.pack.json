@@ -125,6 +125,10 @@
       "PackagePath": "staticwebassets\\images\\AppIcon.appiconset\\spotlight80.png"
     },
     {
+      "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\js\\background.js",
+      "PackagePath": "staticwebassets\\js\\background.js"
+    },
+    {
       "Id": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OzllhfUcf6EnNLnAC6w8SKCGbTjBEM8nVdGWkR/QS04=",
+  "Hash": "4jrfqjK2eH0ZNTEDfwn/ulC2a3gh5ZKL0z8RxuLh7wA=",
   "Source": "WebTaskManagerApp",
   "BasePath": "_content/WebTaskManagerApp",
   "Mode": "Default",
@@ -559,6 +559,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\AppIcon.appiconset\\spotlight80.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\js\\background.js",
+      "SourceId": "WebTaskManagerApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\",
+      "BasePath": "_content/WebTaskManagerApp",
+      "RelativePath": "js/background.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\background.js"
     },
     {
       "Identity": "C:\\Users\\Mykyta\\Documents\\GitHub\\WebTaskManager\\WebTaskManagerApp\\WebTaskManagerApp\\wwwroot\\js\\site.js",
