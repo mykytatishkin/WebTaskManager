@@ -129,10 +129,6 @@
       "PackagePath": "staticwebassets/js/background.js"
     },
     {
-      "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/js/loginValidation.js",
-      "PackagePath": "staticwebassets/js/loginValidation.js"
-    },
-    {
       "Id": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

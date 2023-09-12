@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ukEtVWAZ7UQZH/cCV16FMV+4QKjUVP5HoIFujsDO334=",
+  "Hash": "1SREj+6kw+ft3RRGykUaaEUIIEznf6510lLyp9txScQ=",
   "Source": "WebTaskManagerApp",
   "BasePath": "_content/WebTaskManagerApp",
   "Mode": "Default",
@@ -576,23 +576,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/background.js"
-    },
-    {
-      "Identity": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/js/loginValidation.js",
-      "SourceId": "WebTaskManagerApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/",
-      "BasePath": "_content/WebTaskManagerApp",
-      "RelativePath": "js/loginValidation.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/loginValidation.js"
     },
     {
       "Identity": "/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/js/site.js",

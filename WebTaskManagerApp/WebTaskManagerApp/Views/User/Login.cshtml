@@ -13,10 +13,6 @@
 <div class="container md">
     <div class="row justify-content-center align-items-center">
         <div class="col-md-4 row justify-content-center align-items-center">
-            <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-light" id="UsernameButton" onclick="usernameLoginAccess();">Username</button>
-                <button type="button" class="btn btn-light" id="EmailButton"  onclick="emailLoginAccess();">Email</button>
-            </div>
             <form id="LoginForm" asp-action="Login">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">

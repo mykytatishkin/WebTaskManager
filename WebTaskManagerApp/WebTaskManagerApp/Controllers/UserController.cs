@@ -113,36 +113,6 @@ namespace WebTaskManagerApp.Controllers
             }
         }
 
-        [HttpPost]
-        public IActionResult LoginByEmail(User user)
-        {
-            _logger.LogInformation(string.Format("&&& LoginByEmail() starded with params id:{0}, email: {2}, password: {3}", user.Id, user.Email, user.Password));
-
-
-#pragma warning disable CS8600
-
-            User userInDb = _context.Users.Where(
-                   (u => u.Email == user.Email
-                &&  u.Password == user.Password)
-            ).FirstOrDefault();
-
-#pragma warning restore CS8600
-
-            if (userInDb == null)
-            {
-                _logger.LogWarning(string.Format("&&& Failed loginByEmail() for email {0}[name {1}] with pass {2}", user.Email, user.Name, user.Password));
-                return RedirectToAction("Registration");
-            }
-            else
-            {
-                HttpContext.Session.SetString("LoggedName", userInDb.Name);
-                HttpContext.Session.SetInt32("LoggedId", userInDb.Id);
-                HttpContext.Session.SetInt32("RoleId", userInDb.RoleId);
-                _logger.LogInformation(string.Format("&&& Succedeed loginByEmail() for email {0}[name {1}] with pass {2}", user.Email, user.Name, user.Password));
-                return RedirectToAction("Index");
-            }
-        }
-
         public IActionResult SetCompleted(int Id, int Delta)
         {
             _logger.LogInformation(string.Format("&&& SetCompleted() starded with params id:{0}, Delta:{1}", Id, Delta));
