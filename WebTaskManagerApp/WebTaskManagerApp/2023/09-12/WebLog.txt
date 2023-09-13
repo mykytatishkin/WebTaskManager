@@ -478,3 +478,308 @@ WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_logged
 [12:47:26 INF] Executed action WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp) in 130.4482ms
 [12:47:26 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
 [12:47:26 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Index - - - 200 - text/html;+charset=utf-8 133.2487ms
+[16:16:39 INF] User profile is available. Using 'C:\Users\Mykyta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[16:16:39 INF] Now listening on: http://localhost:5214
+[16:16:39 INF] Application started. Press Ctrl+C to shut down.
+[16:16:39 INF] Hosting environment: Development
+[16:16:39 INF] Content root path: C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp
+[16:16:39 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[16:16:40 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[16:16:40 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[16:16:41 INF] Executed DbCommand (118ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[16:16:41 INF] Executing ViewResult, running view Login.
+[16:16:41 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[16:16:42 INF] Executed ViewResult - view Login executed in 257.9385ms.
+[16:16:42 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 2076.6466ms
+[16:16:42 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[16:16:42 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/css/bootstrap.min.css - -
+[16:16:42 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=0c4oVC_4tyN-iOXacSn6QThghf_OivjU0VeEfcSdYvg - -
+[16:16:42 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+[16:16:42 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery/dist/jquery.min.js - -
+[16:16:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 2251.0736ms
+[16:16:42 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=-Qaa9v_T9NLBb7Xm9QuTPJpp2wwlGU3euFbUM14nUvk - -
+[16:16:42 INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\css\site.css'
+[16:16:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=-Qaa9v_T9NLBb7Xm9QuTPJpp2wwlGU3euFbUM14nUvk - - - 200 537 text/css 10.8239ms
+[16:16:42 INF] Sending file. Request path: '/WebTaskManagerApp.styles.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\obj\Debug\net7.0\scopedcss\bundle\WebTaskManagerApp.styles.css'
+[16:16:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=0c4oVC_4tyN-iOXacSn6QThghf_OivjU0VeEfcSdYvg - - - 200 1134 text/css 22.2228ms
+[16:16:42 INF] Request starting HTTP/1.1 GET http://localhost:5214/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+[16:16:42 INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\js\site.js'
+[16:16:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 0.5832ms
+[16:16:42 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery-validation/dist/jquery.validate.min.js - -
+[16:16:42 INF] Request starting HTTP/1.1 GET http://localhost:5214/js/background.js?v=o653v-zcf3a38wwImypsisR6nuhtHFKa3CfY-A7jvM0 - -
+[16:16:42 INF] Sending file. Request path: '/js/background.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\js\background.js'
+[16:16:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/js/background.js?v=o653v-zcf3a38wwImypsisR6nuhtHFKa3CfY-A7jvM0 - - - 200 1926 text/javascript 1.8518ms
+[16:16:42 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+[16:16:42 INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+[16:16:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 65.2803ms
+[16:16:42 INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+[16:16:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 text/javascript 61.5555ms
+[16:16:42 INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+[16:16:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery-validation/dist/jquery.validate.min.js - - - 200 23261 text/javascript 30.3037ms
+[16:16:42 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[16:16:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 1.3673ms
+[16:16:42 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[16:16:42 INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\jquery\dist\jquery.min.js'
+[16:16:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery/dist/jquery.min.js - - - 200 89501 text/javascript 82.9641ms
+[16:16:42 INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\Mykyta\Documents\GitHub\WebTaskManager\WebTaskManagerApp\WebTaskManagerApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+[16:16:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 200 5824 text/javascript 48.7625ms
+[16:16:42 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.4461ms
+[16:16:47 INF] Request starting HTTP/1.1 POST http://localhost:5214/ application/x-www-form-urlencoded 207
+[16:16:47 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[16:16:47 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WebTaskManagerApp.Models.User) on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[16:16:48 INF] &&& Login() starded with params id:0, name:Mykyta, email: , password: 123
+[16:16:48 INF] Executed DbCommand (140ms) [Parameters=[@__user_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Email], [u].[Name], [u].[Password], [u].[RoleId]
+FROM [Users] AS [u]
+WHERE [u].[Name] = @__user_Name_0
+[16:16:48 INF] Accessing expired session, Key:7cb10acd-bca8-6b49-4752-49a902eb835e
+[16:16:48 INF] &&& Succedeed login for email [name Mykyta] with pass 123
+[16:16:48 INF] Executing RedirectResult, redirecting to /User/Index.
+[16:16:48 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 288.6268ms
+[16:16:48 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[16:16:48 INF] Session started; Key:7cb10acd-bca8-6b49-4752-49a902eb835e, Id:225c5ea0-79a8-9f45-718f-e57ba0b21ae4
+[16:16:48 INF] Request finished HTTP/1.1 POST http://localhost:5214/ application/x-www-form-urlencoded 207 - 302 0 - 301.8530ms
+[16:16:48 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Index - -
+[16:16:48 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[16:16:48 INF] Route matched with {action = "Index", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[16:16:48 INF] Executed DbCommand (1ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Email], [u].[Name], [u].[Password], [u].[RoleId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__loggedId_0
+[16:16:48 INF] Executed DbCommand (4ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[AsigneeId] = @__loggedId_0
+[16:16:48 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:16:48 INF] Executed DbCommand (1ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:16:48 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:16:48 INF] Executed DbCommand (1ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:16:48 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:16:48 INF] Executed DbCommand (0ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:16:48 INF] Executing ViewResult, running view Index.
+[16:16:48 INF] Executed ViewResult - view Index executed in 38.6881ms.
+[16:16:48 INF] Executed action WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp) in 181.4502ms
+[16:16:48 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[16:16:48 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Index - - - 200 - text/html;+charset=utf-8 195.2305ms
+[16:16:48 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[16:16:48 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.3655ms
+[16:16:48 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[16:16:48 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.8545ms
+[16:17:20 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Index/Edit/1 - -
+[16:17:20 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Index/Edit/1 - - - 404 0 - 4.8774ms
+[16:17:22 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Index/Edit/2 - -
+[16:17:22 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Index/Edit/2 - - - 404 0 - 15.1289ms
+[16:17:25 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Index/Edit - -
+[16:17:25 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[16:17:25 INF] Route matched with {action = "Index", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[16:17:25 INF] Executed DbCommand (2ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Email], [u].[Name], [u].[Password], [u].[RoleId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__loggedId_0
+[16:17:25 INF] Executed DbCommand (1ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[AsigneeId] = @__loggedId_0
+[16:17:25 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:25 INF] Executed DbCommand (1ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:17:25 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:25 INF] Executed DbCommand (0ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:17:25 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:25 INF] Executed DbCommand (0ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:17:25 INF] Executing ViewResult, running view Index.
+[16:17:25 INF] Executed ViewResult - view Index executed in 4.8025ms.
+[16:17:25 INF] Executed action WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp) in 18.0032ms
+[16:17:25 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[16:17:25 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Index/Edit - - - 200 - text/html;+charset=utf-8 23.7701ms
+[16:17:25 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=-Qaa9v_T9NLBb7Xm9QuTPJpp2wwlGU3euFbUM14nUvk - -
+[16:17:25 INF] The file /css/site.css was not modified
+[16:17:25 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=-Qaa9v_T9NLBb7Xm9QuTPJpp2wwlGU3euFbUM14nUvk - - - 304 - text/css 5.9150ms
+[16:17:25 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[16:17:25 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.2518ms
+[16:17:25 INF] Request starting HTTP/1.1 GET http://localhost:5214/js/background.js?v=o653v-zcf3a38wwImypsisR6nuhtHFKa3CfY-A7jvM0 - -
+[16:17:25 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[16:17:25 INF] The file /js/background.js was not modified
+[16:17:25 INF] Request finished HTTP/1.1 GET http://localhost:5214/js/background.js?v=o653v-zcf3a38wwImypsisR6nuhtHFKa3CfY-A7jvM0 - - - 304 - text/javascript 1.0206ms
+[16:17:25 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.7799ms
+[16:17:28 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Edit%2F - -
+[16:17:28 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Edit%2F - - - 404 0 - 1.0779ms
+[16:17:29 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Index/Edit - -
+[16:17:29 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[16:17:29 INF] Route matched with {action = "Index", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[16:17:29 INF] Executed DbCommand (0ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Email], [u].[Name], [u].[Password], [u].[RoleId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__loggedId_0
+[16:17:29 INF] Executed DbCommand (0ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[AsigneeId] = @__loggedId_0
+[16:17:29 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:29 INF] Executed DbCommand (0ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:17:29 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:29 INF] Executed DbCommand (0ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:17:29 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:29 INF] Executed DbCommand (0ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:17:29 INF] Executing ViewResult, running view Index.
+[16:17:29 INF] Executed ViewResult - view Index executed in 3.5956ms.
+[16:17:29 INF] Executed action WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp) in 12.176ms
+[16:17:29 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[16:17:29 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Index/Edit - - - 200 - text/html;+charset=utf-8 15.5620ms
+[16:17:29 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[16:17:29 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.1277ms
+[16:17:32 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Index - -
+[16:17:32 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[16:17:32 INF] Route matched with {action = "Index", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[16:17:32 INF] Executed DbCommand (2ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Email], [u].[Name], [u].[Password], [u].[RoleId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__loggedId_0
+[16:17:32 INF] Executed DbCommand (0ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[AsigneeId] = @__loggedId_0
+[16:17:32 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:32 INF] Executed DbCommand (0ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:17:32 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:32 INF] Executed DbCommand (0ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:17:32 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:32 INF] Executed DbCommand (0ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:17:32 INF] Executing ViewResult, running view Index.
+[16:17:32 INF] Executed ViewResult - view Index executed in 4.3277ms.
+[16:17:32 INF] Executed action WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp) in 14.7961ms
+[16:17:32 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[16:17:32 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Index - - - 200 - text/html;+charset=utf-8 19.7892ms
+[16:17:32 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[16:17:32 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.1249ms
+[16:17:34 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Edit/1 - -
+[16:17:34 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Edit (WebTaskManagerApp)'
+[16:17:34 INF] Route matched with {action = "Edit", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Nullable`1[System.Int32]) on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[16:17:34 INF] Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:34 INF] Executing ViewResult, running view Edit.
+[16:17:34 INF] Executed ViewResult - view Edit executed in 13.3021ms.
+[16:17:34 INF] Executed action WebTaskManagerApp.Controllers.UserController.Edit (WebTaskManagerApp) in 72.4071ms
+[16:17:34 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Edit (WebTaskManagerApp)'
+[16:17:34 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Edit/1 - - - 200 - text/html;+charset=utf-8 80.1173ms
+[16:17:34 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[16:17:34 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.1879ms
+[16:17:34 INF] Request starting HTTP/1.1 GET http://localhost:5214/_vs/browserLink - -
+[16:17:34 INF] Request finished HTTP/1.1 GET http://localhost:5214/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1.9791ms
+[16:17:37 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Index - -
+[16:17:37 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[16:17:37 INF] Route matched with {action = "Index", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[16:17:37 INF] Executed DbCommand (0ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Email], [u].[Name], [u].[Password], [u].[RoleId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__loggedId_0
+[16:17:37 INF] Executed DbCommand (0ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[AsigneeId] = @__loggedId_0
+[16:17:37 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:37 INF] Executed DbCommand (0ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:17:37 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:37 INF] Executed DbCommand (0ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:17:37 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[16:17:37 INF] Executed DbCommand (0ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[16:17:37 INF] Executing ViewResult, running view Index.
+[16:17:37 INF] Executed ViewResult - view Index executed in 4.4441ms.
+[16:17:37 INF] Executed action WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp) in 10.0124ms
+[16:17:37 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[16:17:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Index - - - 200 - text/html;+charset=utf-8 13.6674ms
+[16:17:37 INF] Request starting HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - -
+[16:17:37 INF] Request finished HTTP/1.1 GET http://localhost:5214/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 0.1765ms
