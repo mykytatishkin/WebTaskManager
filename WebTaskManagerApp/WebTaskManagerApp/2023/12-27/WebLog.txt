@@ -1,0 +1,331 @@
+[12:47:32 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[12:47:32 INF] Creating key {601d7d6e-ff96-4828-8729-237eee9ffeec} with creation date 2023-12-27 11:47:32Z, activation date 2023-12-27 11:47:32Z, and expiration date 2024-03-26 11:47:32Z.
+[12:47:32 WRN] No XML encryptor configured. Key {601d7d6e-ff96-4828-8729-237eee9ffeec} may be persisted to storage in unencrypted form.
+[12:47:32 INF] Writing data to file '/Users/mykytatishkin/.aspnet/DataProtection-Keys/key-601d7d6e-ff96-4828-8729-237eee9ffeec.xml'.
+[12:47:32 INF] Now listening on: http://localhost:5214
+[12:47:32 INF] Application started. Press Ctrl+C to shut down.
+[12:47:32 INF] Hosting environment: Development
+[12:47:32 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[12:47:33 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[12:47:33 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[12:47:33 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[12:47:34 ERR] An error occurred using the connection to database 'TaskManager' on server 'OTISHKIN-NAS\DEVELOP_2019'.
+[12:47:34 ERR] An exception occurred while iterating over the results of a query for context type 'TaskManagerContext'.
+System.Exception: Cannot connect to SQL Server Browser. Ensure SQL Server Browser has been started.
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Int64 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at Microsoft.Data.SqlClient.SNI.SNICommon.GetDnsIpAddresses(String serverName)
+   at Microsoft.Data.SqlClient.SNI.SSRP.SendUDPRequest(String browserHostname, Int32 port, Byte[] requestPacket, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   at Microsoft.Data.SqlClient.SNI.SSRP.GetPortByInstanceName(String browserHostName, String instanceName, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   --- End of inner exception stack trace ---
+   at Microsoft.Data.SqlClient.SNI.SSRP.GetPortByInstanceName(String browserHostName, String instanceName, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateTcpHandle(DataSource details, Int64 timerExpire, Boolean parallel, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean tlsFirst, String hostNameInCertificate)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateConnectionHandle(String fullServerName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, String serverSPN, Boolean flushCache, Boolean async, Boolean parallel, Boolean isIntegratedSecurity, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean tlsFirst, String hostNameInCertificate)
+   at Microsoft.Data.SqlClient.SNI.TdsParserStateObjectManaged.CreatePhysicalSNIHandle(String serverName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, Boolean flushCache, Boolean async, Boolean parallel, SqlConnectionIPAddressPreference iPAddressPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, String serverSPN, Boolean isIntegratedSecurity, Boolean tlsFirst, String hostNameInCertificate)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.Exception: Cannot connect to SQL Server Browser. Ensure SQL Server Browser has been started.
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Int64 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at Microsoft.Data.SqlClient.SNI.SNICommon.GetDnsIpAddresses(String serverName)
+   at Microsoft.Data.SqlClient.SNI.SSRP.SendUDPRequest(String browserHostname, Int32 port, Byte[] requestPacket, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   at Microsoft.Data.SqlClient.SNI.SSRP.GetPortByInstanceName(String browserHostName, String instanceName, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   --- End of inner exception stack trace ---
+   at Microsoft.Data.SqlClient.SNI.SSRP.GetPortByInstanceName(String browserHostName, String instanceName, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateTcpHandle(DataSource details, Int64 timerExpire, Boolean parallel, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean tlsFirst, String hostNameInCertificate)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateConnectionHandle(String fullServerName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, String serverSPN, Boolean flushCache, Boolean async, Boolean parallel, Boolean isIntegratedSecurity, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean tlsFirst, String hostNameInCertificate)
+   at Microsoft.Data.SqlClient.SNI.TdsParserStateObjectManaged.CreatePhysicalSNIHandle(String serverName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, Boolean flushCache, Boolean async, Boolean parallel, SqlConnectionIPAddressPreference iPAddressPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, String serverSPN, Boolean isIntegratedSecurity, Boolean tlsFirst, String hostNameInCertificate)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+[12:48:14 INF] User profile is available. Using '/Users/mykytatishkin/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[12:48:14 INF] Now listening on: http://localhost:5214
+[12:48:14 INF] Application started. Press Ctrl+C to shut down.
+[12:48:14 INF] Hosting environment: Development
+[12:48:14 INF] Content root path: /Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp
+[12:48:15 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[12:48:15 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[12:48:15 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[12:48:16 INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[12:48:16 INF] Executing ViewResult, running view Login.
+[12:48:16 INF] Executed ViewResult - view Login executed in 125.7277ms.
+[12:48:16 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 829.65ms
+[12:48:16 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[12:48:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 871.0468ms
+[12:48:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/css/bootstrap.min.css - -
+[12:48:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/css/site.css?v=zUl-PM5By0wcQDcmYb05X9gu_sExOgdoSmYORgGLGII - -
+[12:48:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - -
+[12:48:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery/dist/jquery.min.js - -
+[12:48:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+[12:48:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - -
+[12:48:16 INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/css/site.css'
+[12:48:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/css/site.css?v=zUl-PM5By0wcQDcmYb05X9gu_sExOgdoSmYORgGLGII - - - 200 499 text/css 118.5386ms
+[12:48:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/js/background.js?v=6yhTwX55M49j4ZHqHOXK_l6MadUaQc0Ly9VDXtdIylE - -
+[12:48:16 INF] Sending file. Request path: '/WebTaskManagerApp.styles.css'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/obj/Debug/net7.0/scopedcss/bundle/WebTaskManagerApp.styles.css'
+[12:48:16 INF] Sending file. Request path: '/js/background.js'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/js/background.js'
+[12:48:16 INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/js/site.js'
+[12:48:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/WebTaskManagerApp.styles.css?v=pKq5PW9UQC7Tg8n7J8sX3pwVokjXb8FFkuEn9SZpOp8 - - - 200 1085 text/css 119.8975ms
+[12:48:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - - - 200 226 text/javascript 68.0048ms
+[12:48:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/js/background.js?v=6yhTwX55M49j4ZHqHOXK_l6MadUaQc0Ly9VDXtdIylE - - - 200 1866 text/javascript 3.8674ms
+[12:48:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery-validation/dist/jquery.validate.min.js - -
+[12:48:16 INF] Request starting HTTP/1.1 GET http://localhost:5214/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+[12:48:16 INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js'
+[12:48:16 INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+[12:48:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 text/javascript 99.9343ms
+[12:48:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery-validation/dist/jquery.validate.min.js - - - 200 23261 text/javascript 29.2689ms
+[12:48:16 INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery/dist/jquery.min.js'
+[12:48:16 INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+[12:48:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery/dist/jquery.min.js - - - 200 89501 text/javascript 100.9755ms
+[12:48:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 154.1847ms
+[12:48:16 INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'
+[12:48:16 INF] Request finished HTTP/1.1 GET http://localhost:5214/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 200 5824 text/javascript 30.2676ms
+[12:48:17 INF] Request starting HTTP/1.1 GET http://localhost:5214/favicon.ico - -
+[12:48:17 INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mykytatishkin/Documents/GitHub/WebTaskManager/WebTaskManagerApp/WebTaskManagerApp/wwwroot/favicon.ico'
+[12:48:17 INF] Request finished HTTP/1.1 GET http://localhost:5214/favicon.ico - - - 200 4286 image/x-icon 22.9755ms
+[12:48:24 INF] Request starting HTTP/1.1 POST http://localhost:5214/ application/x-www-form-urlencoded 207
+[12:48:24 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[12:48:24 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WebTaskManagerApp.Models.User) on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[12:48:24 INF] &&& Login() starded with params id:0, name:Mykyta, email: , password: 123
+[12:48:24 INF] Executed DbCommand (29ms) [Parameters=[@__user_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Email], [u].[Name], [u].[Password], [u].[RoleId]
+FROM [Users] AS [u]
+WHERE [u].[Name] = @__user_Name_0
+[12:48:24 INF] &&& Succedeed login for email [name Mykyta] with pass 123
+[12:48:24 INF] Executing RedirectResult, redirecting to /User/Index.
+[12:48:24 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 121.0486ms
+[12:48:24 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[12:48:24 INF] Session started; Key:683fc0b9-d413-920d-6a4d-93dd4c9b3072, Id:088d9ed5-ddc0-9007-365a-e27035cdd6b6
+[12:48:24 INF] Request finished HTTP/1.1 POST http://localhost:5214/ application/x-www-form-urlencoded 207 - 302 0 - 148.5812ms
+[12:48:24 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Index - -
+[12:48:24 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[12:48:24 INF] Route matched with {action = "Index", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[12:48:24 INF] Executed DbCommand (7ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Email], [u].[Name], [u].[Password], [u].[RoleId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__loggedId_0
+[12:48:24 INF] Executed DbCommand (21ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[AsigneeId] = @__loggedId_0
+[12:48:24 INF] Executed DbCommand (15ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[12:48:24 INF] Executed DbCommand (7ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[12:48:24 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[12:48:24 INF] Executed DbCommand (1ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[12:48:24 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[12:48:24 INF] Executed DbCommand (1ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[12:48:24 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[12:48:24 INF] Executed DbCommand (1ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[12:48:24 INF] Executing ViewResult, running view Index.
+[12:48:24 INF] Executed ViewResult - view Index executed in 24.4744ms.
+[12:48:24 INF] Executed action WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp) in 145.8741ms
+[12:48:24 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[12:48:24 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Index - - - 200 - text/html;+charset=utf-8 148.6025ms
+[12:48:31 INF] Request starting HTTP/1.1 GET http://localhost:5214/Projects/Create - -
+[12:48:31 INF] Executing endpoint 'WebTaskManagerApp.Controllers.ProjectsController.Create (WebTaskManagerApp)'
+[12:48:31 INF] Route matched with {action = "Create", controller = "Projects"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller WebTaskManagerApp.Controllers.ProjectsController (WebTaskManagerApp).
+[12:48:31 INF] Executing ViewResult, running view Create.
+[12:48:31 INF] Executed ViewResult - view Create executed in 30.3916ms.
+[12:48:31 INF] Executed action WebTaskManagerApp.Controllers.ProjectsController.Create (WebTaskManagerApp) in 31.1895ms
+[12:48:31 INF] Executed endpoint 'WebTaskManagerApp.Controllers.ProjectsController.Create (WebTaskManagerApp)'
+[12:48:31 INF] Request finished HTTP/1.1 GET http://localhost:5214/Projects/Create - - - 200 - text/html;+charset=utf-8 35.1642ms
+[12:48:32 INF] Request starting HTTP/1.1 GET http://localhost:5214/Projects/Create - -
+[12:48:32 INF] Executing endpoint 'WebTaskManagerApp.Controllers.ProjectsController.Create (WebTaskManagerApp)'
+[12:48:32 INF] Route matched with {action = "Create", controller = "Projects"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller WebTaskManagerApp.Controllers.ProjectsController (WebTaskManagerApp).
+[12:48:32 INF] Executing ViewResult, running view Create.
+[12:48:32 INF] Executed ViewResult - view Create executed in 2.8955ms.
+[12:48:32 INF] Executed action WebTaskManagerApp.Controllers.ProjectsController.Create (WebTaskManagerApp) in 3.5532ms
+[12:48:32 INF] Executed endpoint 'WebTaskManagerApp.Controllers.ProjectsController.Create (WebTaskManagerApp)'
+[12:48:32 INF] Request finished HTTP/1.1 GET http://localhost:5214/Projects/Create - - - 200 - text/html;+charset=utf-8 13.8297ms
+[12:48:34 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[12:48:34 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[12:48:34 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[12:48:34 INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[12:48:34 INF] Executing ViewResult, running view Login.
+[12:48:34 INF] Executed ViewResult - view Login executed in 3.6935ms.
+[12:48:34 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 17.5785ms
+[12:48:34 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[12:48:34 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 18.9714ms
+[12:48:35 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Index - -
+[12:48:35 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[12:48:35 INF] Route matched with {action = "Index", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[12:48:35 INF] Executed DbCommand (4ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Email], [u].[Name], [u].[Password], [u].[RoleId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__loggedId_0
+[12:48:35 INF] Executed DbCommand (3ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[AsigneeId] = @__loggedId_0
+[12:48:35 INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[12:48:35 INF] Executed DbCommand (4ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[12:48:35 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[12:48:35 INF] Executed DbCommand (2ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[12:48:35 INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[12:48:35 INF] Executed DbCommand (7ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[12:48:35 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[12:48:35 INF] Executed DbCommand (1ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[12:48:35 INF] Executing ViewResult, running view Index.
+[12:48:35 INF] Executed ViewResult - view Index executed in 2.3462ms.
+[12:48:35 INF] Executed action WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp) in 50.667ms
+[12:48:35 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[12:48:35 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Index - - - 200 - text/html;+charset=utf-8 53.7037ms
+[12:48:44 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Edit%2F - -
+[12:48:44 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Edit%2F - - - 404 0 - 1.0810ms
+[12:48:45 INF] Request starting HTTP/1.1 GET http://localhost:5214/User/Index - -
+[12:48:45 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[12:48:45 INF] Route matched with {action = "Index", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[12:48:45 INF] Executed DbCommand (9ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Email], [u].[Name], [u].[Password], [u].[RoleId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__loggedId_0
+[12:48:45 INF] Executed DbCommand (4ms) [Parameters=[@__loggedId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[AsigneeId] = @__loggedId_0
+[12:48:45 INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[12:48:46 INF] Executed DbCommand (3ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[12:48:46 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[12:48:46 INF] Executed DbCommand (2ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[12:48:46 INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[12:48:46 INF] Executed DbCommand (2ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[12:48:46 INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedAt], [p].[CreatorId], [p].[Description], [p].[Title]
+FROM [Project] AS [p]
+WHERE [p].[Id] = @__p_0
+[12:48:46 INF] Executed DbCommand (2ms) [Parameters=[@__item_Pid_0='?' (DbType = Int32), @__8__locals1_loggedId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AsigneeId], [t].[Competed], [t].[CreatedAt], [t].[Description], [t].[Name], [t].[ProjectId]
+FROM [Tasks] AS [t]
+WHERE [t].[ProjectId] = @__item_Pid_0 AND [t].[AsigneeId] = @__8__locals1_loggedId_1
+[12:48:46 INF] Executing ViewResult, running view Index.
+[12:48:46 INF] Executed ViewResult - view Index executed in 0.958ms.
+[12:48:46 INF] Executed action WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp) in 46.0184ms
+[12:48:46 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Index (WebTaskManagerApp)'
+[12:48:46 INF] Request finished HTTP/1.1 GET http://localhost:5214/User/Index - - - 200 - text/html;+charset=utf-8 47.2171ms
+[12:48:56 INF] Request starting HTTP/1.1 GET http://localhost:5214/ - -
+[12:48:56 INF] Executing endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[12:48:56 INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebTaskManagerApp.Controllers.UserController (WebTaskManagerApp).
+[12:48:56 INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[RoleName]
+FROM [Roles] AS [r]
+[12:48:56 INF] Executing ViewResult, running view Login.
+[12:48:56 INF] Executed ViewResult - view Login executed in 3.5668ms.
+[12:48:56 INF] Executed action WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp) in 14.1846ms
+[12:48:56 INF] Executed endpoint 'WebTaskManagerApp.Controllers.UserController.Login (WebTaskManagerApp)'
+[12:48:56 INF] Request finished HTTP/1.1 GET http://localhost:5214/ - - - 200 - text/html;+charset=utf-8 19.6381ms

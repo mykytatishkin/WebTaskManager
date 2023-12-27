@@ -1,30 +1,28 @@
 ﻿<Properties StartupConfiguration="{BF4457F8-9CEC-4515-B97C-0A3491BBFDEB}|http">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebTaskManagerApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.WebTaskManagerApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebTaskManagerApp/Views/User/Login.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebTaskManagerApp/Controllers/UserController.cs">
     <Files>
-      <File FileName="WebTaskManagerApp/Views/User/Login.cshtml" Line="17" Column="50" />
-      <File FileName="WebTaskManagerApp/Views/User/Registration.cshtml" Line="64" Column="43" />
-      <File FileName="WebTaskManagerApp/Views/Shared/_Layout.cshtml" Line="11" Column="31" />
+      <File FileName="WebTaskManagerApp/Views/User/Login.cshtml" Line="13" Column="22" />
+      <File FileName="WebTaskManagerApp/Views/User/Registration.cshtml" />
+      <File FileName="WebTaskManagerApp/Views/Shared/_Layout.cshtml" />
+      <File FileName="WebTaskManagerApp/Controllers/UserController.cs" Line="81" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WebTaskManagerApp">
+          <Node name="WebTaskManagerApp" expanded="True">
             <Node name="WebTaskManagerApp">
-              <Node name="2023" expanded="True">
-                <Node name="09-08" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="UserController.cs" selected="True" />
               </Node>
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views">
-                <Node name="User">
-                  <Node name="Login.cshtml" selected="True" />
-                </Node>
+              <Node name="Views" expanded="True">
+                <Node name="User" expanded="True" />
               </Node>
             </Node>
           </Node>
